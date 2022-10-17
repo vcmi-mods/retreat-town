@@ -1,0 +1,58 @@
+{
+	"dingChan" : 
+	{
+		"class" : "yingYanMaster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Ding Chan",
+			"biography" : "Before becoming a monk, Ding Chan was Meng Die's husband. One night, he reveived a heavenly revelation and soon realised his fate.",
+			"specialty" : 
+			{
+				"description" : "{Dispell}\r\n\r\nCasts Dispell spell with expert effects but not expert range.",
+				"tooltip" : "Spell Bonus: Dispel",
+				"name" : "Dispel"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/dingChan/spec-small",
+			"specialtyLarge" : "retreat/heroes/dingChan/spec-large",
+			"large" : "retreat/heroes/dingChan/HPL001EL",
+			"small" : "retreat/heroes/dingChan/HPS001EL"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "eagleEye"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+    
+		"specialty" : {
+			"bonuses" : {
+				"dispel" : {
+					"subtype" : "spell.dispel",
+					"type" : "MAXED_SPELL"
+				}
+			}
+		}
+	}
+}
+
+

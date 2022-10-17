@@ -1,0 +1,48 @@
+{
+	"sunXiaoHou" : 
+	{
+		"class" : "vanguard",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Sun Xiao Hou",
+			"biography" : "Sun Xiao Hou is a monkey from the Waterfall Cave. His ambition is to become a great monkey as the Monkey King Sun Wukong.",
+			"specialty" : 
+			{
+				"description" : "{Monkeys and Monkey Elders}\r\n\r\nIncreases Speed of any Monkeys or Monkey Elders by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: aMonkey",
+				"name" : "Monkeys"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/sunXiaoHou/spec-small",
+			"specialtyLarge" : "retreat/heroes/sunXiaoHou/spec-large",
+			"large" : "retreat/heroes/sunXiaoHou/HPL000PL",
+			"small" : "retreat/heroes/sunXiaoHou/HPS000PL"
+		},
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+    
+		"specialty" : {
+			"creature" : "amMonkey"
+		}
+	}
+}
+
+

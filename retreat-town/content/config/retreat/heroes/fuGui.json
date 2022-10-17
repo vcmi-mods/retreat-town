@@ -1,0 +1,45 @@
+{
+	"fuGui" : 
+	{
+		"class" : "yingYanMaster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Fu Gui",
+			"biography" : "Fu Gui is born a successful merchant and entrepreneur. His capability and personality are both highly recognised by the folks.",
+			"specialty" : 
+			{
+				"description" : "{Estates}\r\n\r\nStarts with Expert Estates.",
+				"tooltip" : "Skill Bonus: Estates", //start with expert estates
+				"name" : "Estates"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/fuGui/spec-small.png",
+			"specialtyLarge" : "retreat/heroes/fuGui/spec-large.png",
+			"large" : "retreat/heroes/fuGui/HPL004EL",
+			"small" : "retreat/heroes/fuGui/HPS004EL"
+		},
+
+		"spellbook" :
+		[
+		],
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "expert",
+				"skill" : "estates"
+			}
+		],
+    
+		"specialty" : {
+		}
+	}
+}

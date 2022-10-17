@@ -1,0 +1,23 @@
+{
+	"atGoldenLion":
+    {
+		"type" : ["HERO"],
+		"warMachine" : "atGoldenLion",
+		"class": "SPECIAL",
+		"value": 3000,
+		"slot":"MACH1",
+		"text":
+		{
+			"name": "Golden Folangji",
+			"description": "{Golden Folangji}\r\n\r\nAfter shooting, there's 20% chance for Lightning Strike.",
+			"event": "How - for God's sake - did you find this war machine on the map?"
+		},
+		"graphics":
+		{
+			"image": "retreat/iconsSmall/lion44.bmp",
+			"map"  : "retreat/map/lionMap.def"
+		}
+	}
+}
+
+

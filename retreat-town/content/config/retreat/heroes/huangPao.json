@@ -1,0 +1,59 @@
+{
+	"huangPao" : 
+	{
+		"class" : "yingYanMaster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Huang Pao",
+			"biography" : "With strong Taoist power, Huang Pao is able to travel between the worlds of the living and the dead. However, he was expelled from the Taoist Alliance for practicing prohibited dark magics.",
+			"specialty" : 
+			{
+				"description" : "{Resurrection}\r\n\r\nCasts Resurrectione with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/huangPao/spec-small.png",
+			"specialtyLarge" : "retreat/heroes/huangPao/spec-large.png",
+			"large" : "retreat/heroes/huangPao/HPL000EL",
+			"small" : "retreat/heroes/huangPao/HPS000EL"
+		},
+		"spellbook" :
+		[
+			"resurrection"
+		],
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+    
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+
+

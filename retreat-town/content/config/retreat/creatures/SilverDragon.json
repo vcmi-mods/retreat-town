@@ -1,0 +1,95 @@
+{
+	"amSilverDragon":
+	{
+		"name" :
+		{
+			"plural" : "Silver Dragons",
+			"singular" : "Silver Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"faction" : "retreat",
+		"aiValue" : 16750,
+		"attack" : 30,
+		"cost" :
+		{
+			"gold" : 6000,
+			"gems" : 4
+		},
+		"damage" :
+		{
+			"max" : 60,
+			"min" : 50
+		},
+		"defense" : 35,
+		"fightValue" : 16750,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR211.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "retreat/map/CR211.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS211F.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL211B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 400,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "retreat/SCDRATTK.wav",
+			"defend" : "retreat/SCDRDFND.wav",
+			"killed" : "retreat/SCDRKILL.wav",
+			"move"   : "retreat/SCDRMOVE.wav",
+			"wince"  : "retreat/SCDRWNCE.wav"
+                     
+		},
+		"speed" : 17,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"fireImmunity" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+            },
+			"spellFireWall" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fireWall",
+				"val" : 50,
+				"addInfo" : 3
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"twohexattackbreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"healer" : 
+			{
+				"type" : "HEALER"
+			},
+			"FEAR" :
+			{
+				"type" : "FEAR"
+			}
+		}
+	}
+}
+
+

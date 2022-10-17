@@ -1,0 +1,46 @@
+{
+	"shanXianSheng" : 
+	{
+		"class" : "yingYanMaster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Shan Xian Sheng",
+			"biography" : "Shan Xian Sheng is a decendent of the Fu Xi Clan. He is an expert at Bagua and Fortune Telling.",
+			"specialty" : 
+			{
+				"description" : "{Earth Magic}\r\n\r\nStarts with Expert Earth Magic.",
+				"tooltip" : "Skill Bonus: Earth Magic",
+				"name" : "Earth Magic"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/shanXianSheng/spec-small",
+			"specialtyLarge" : "retreat/heroes/shanXianSheng/spec-large",
+			"large" : "retreat/heroes/shanXianSheng/HPL006EL",
+			"small" : "retreat/heroes/shanXianSheng/HPS006EL"
+		},
+
+		"spellbook" :
+		[
+			"visions"
+		],
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "expert",
+				"skill" : "earthMagic"
+			}
+		],
+    
+		"specialty" : {
+		}
+	}
+}

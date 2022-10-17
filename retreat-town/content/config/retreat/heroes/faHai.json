@@ -1,0 +1,53 @@
+{
+	"faHai" : 
+	{
+		"class" : "yingYanMaster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Fa Hai",
+			"biography" : "Fa Hai is a pioneer in practicing exorcism. He believes that the souls should enter the afterworld after the death of the bodies.",
+			"specialty" : 
+			{
+				"description" : "{Dhuta Seekers and Dhuta Walkers}\r\n\r\nIncreases Speed of any Dhuta Seekers or Dhuta Walkers by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Dhuta Seekers",
+				"name" : "Dhuta Seekers"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/faHai/spec-small",
+			"specialtyLarge" : "retreat/heroes/faHai/spec-large",
+			"large" : "retreat/heroes/faHai/HPL003EL",
+			"small" : "retreat/heroes/faHai/HPS003EL"
+		},
+
+		"spellbook" :
+		[
+			"destroyUndead"
+		],
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+    
+		"specialty" : {
+			"creature" : "amBronzeMonk"
+		}
+	}
+}
+
+

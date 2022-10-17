@@ -1,0 +1,47 @@
+{
+	"lvMu" : 
+	{
+		"class" : "vanguard",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Lv Mu",
+			"biography" : "Lv Mu is a giant snake and possesses the ability to control the mind of all breeds of snakes.",
+			"specialty" : 
+			{
+				"description" : "{Snake Graspers and Snake Bearers}\r\n\r\nIncreases Speed of any Snake Graspers and Snake Bearers by 1 and their Attack and Defense skills by 5% for 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Snake Graspers",
+				"name" : "Snake Graspers"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/lvMu/spec-small",
+			"specialtyLarge" : "retreat/heroes/lvMu/spec-large",
+			"large" : "retreat/heroes/lvMu/HPL005PL",
+			"small" : "retreat/heroes/lvMu/HPS005PL"
+		},
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],  
+		"specialty" : {
+			"creature" : "amGirlSnake"
+		}
+	}
+}
+
+

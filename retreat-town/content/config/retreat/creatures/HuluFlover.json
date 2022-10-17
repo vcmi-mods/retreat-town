@@ -1,0 +1,59 @@
+{
+	"amHuluFlover":
+	{
+		"name" :
+		{
+			"plural" : "Hulu Flovers",
+			"singular" : "Hulu Flover"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 20
+		},
+		"faction" : "retreat",
+		"aiValue" : 84,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 3,
+		"fightValue" : 94,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "retreat/map/CR200.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 6,
+		"horde" : 10,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "retreat/GRPLATTK.wav",
+			"defend": "retreat/GRPLDFND.wav",
+			"killed": "retreat/GRPLKILL.wav",
+			"move": "retreat/GRPLMOVE.wav",
+			"wince": "retreat/GRPLWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{	
+			"strikeAndReturn" :
+            {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		}
+	}
+}

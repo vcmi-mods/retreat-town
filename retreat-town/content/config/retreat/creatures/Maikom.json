@@ -1,0 +1,93 @@
+{
+	"amMaikom":
+	{
+		"name" :
+		{
+			"plural" : "Snake Bearers",
+			"singular" : "Snake Bearer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "retreat",
+		"aiValue" : 1086,
+		"fightValue" : 984,
+		"attack" : 13,
+		"defense" : 10,
+		"cost" :
+		{
+			"gold" : 550
+		},
+		"damage" :
+		{
+			 "max" : 14,
+			 "min" : 10
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/Maikom.def",
+			"map" : "retreat/map/Maikom.def",
+			"iconSmall" : "retreat/iconsSmall/Maikom.bmp",
+			"iconLarge" : "retreat/iconsBig/Maikom.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.8,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+            	"missile" :
+			{
+				"projectile" : "PMAGEX.def",
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 40,
+					"upperY" : -50,
+					"middleX" : 50,
+					"middleY" : -50,
+					"lowerX" : 20,
+					"lowerY" : -10
+				},
+				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
+			}
+		},
+		"hitPoints" : 55,
+		"doubleWide" : true,
+        "growth" : 3,
+		"level" : 5,
+		"shots" : 24,		
+		"sound" :
+		{
+			
+			"attack": "retreat/MIKOATTK.wav",
+			"defend": "retreat/MIKODFND.wav",
+			"killed": "retreat/GISNKILL.wav",
+			"move": "retreat/MIKOMOVE.wav",
+			"shoot": "retreat/GISNSHOT.wav",
+			"wince": "retreat/MIKOWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"poison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 100,
+				"addInfo" : [0,2]
+			}
+		}
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"yingYanMaster" :
+	{
+		"name" : "Ying-Yang Master",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "retreat/CH17",
+				"male"   : "retreat/CH17"
+			}
+		},		
+		"mapObject" : { "templates" : { "default" : { "animation" : "retreat/AH17_", "editorAnimation": "retreat/AH17_e.def" }}},
+		"commander" : "atPengHou",		
+		"faction" : "retreat",
+		"affinity" : "magic",
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 1,
+			"spellpower" : 3,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 20,
+			"spellpower" : 35,
+			"knowledge"  : 30
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 25,
+			"spellpower" : 30,
+			"knowledge"  : 25
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 4,
+			"archery"      : 1,
+			"logistics"    : 3,
+			"scouting"     : 3,
+			"diplomacy"    : 2,
+			"navigation"   : 3,
+			"leadership"   : 2,
+			"wisdom"       : 8,
+			"mysticism"    : 7,
+			"luck"         : 4,
+			"ballistics"   : 4,
+			"eagleEye"     : 4,
+			"necromancy"   : 0,
+			"estates"      : 3,
+			"fireMagic"    : 6,
+			"airMagic"     : 6,
+			"waterMagic"   : 6,
+			"earthMagic"   : 6,
+			"scholar"      : 6,
+			"tactics"      : 3,
+			"artillery"    : 1,
+			"learning"     : 4,
+			"offence"      : 1,
+			"armorer"      : 3,
+			"intelligence" : 7,
+			"sorcery"      : 7,
+			"resistance"   : 4,
+			"firstAid"     : 5
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 5,
+			"rampart"    : 5,
+			"tower"      : 5,
+			"inferno"    : 5,
+			"necropolis" : 5,
+			"dungeon"    : 5,
+			"stronghold" : 5,
+			"fortress"   : 5,
+			"conflux"    : 5,
+			"retreat"    : 6
+		}
+	}
+}

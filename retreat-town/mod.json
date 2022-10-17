@@ -1,0 +1,82 @@
+{
+	"name" : "Retreat",
+	"description" : "Retreat Town ported from vcmi",
+	"author" : "XEricSin, Zeryss, acidchalk, avatar.",
+	"contact" : "https://vk.com/club161023181",
+	"version" : "0.5.1",
+	"modType" : "Town",
+
+	"factions" :
+	[
+		"config/retreat/town/buildings",
+		"config/retreat/town/faction",
+		"config/retreat/town/siege",
+		"config/retreat/town/spells",
+		"config/retreat/town/structures",
+		"config/retreat/town/puzzle"
+
+	],
+	"creatures" :
+	[
+		"config/retreat/creatures/HuluLeave",
+		"config/retreat/creatures/HuluFlover",
+        "config/retreat/creatures/Monkey",
+		"config/retreat/creatures/FighterMonkey",
+		"config/retreat/creatures/BronzeMonk",
+		"config/retreat/creatures/GoldenLo'han",
+		"config/retreat/creatures/SwordServant",
+		"config/retreat/creatures/SwordMaster",
+		"config/retreat/creatures/GirlSnake",
+		"config/retreat/creatures/Maikom",
+		"config/retreat/creatures/DragonTurtle",
+		"config/retreat/creatures/StoneDragonTurtle",
+		"config/retreat/creatures/PengHou",
+		"config/retreat/creatures/fireDragon",
+		"config/retreat/creatures/jadeDragon",
+		"config/retreat/creatures/SilverDragon",
+		"config/retreat/creatures/greatDeer",
+		"config/retreat/creatures/whiteDeer",
+        "config/retreat/creatures/GoldenLion"
+		
+	],
+    "artifacts":
+    [              
+        "config/retreat/artifacts/GoldenLion"        
+    ],
+
+	"heroClasses" :
+	[
+		"config/retreat/classes/vanguard",
+		"config/retreat/classes/yingYanMaster"
+
+	],
+
+	"heroes" :
+	[
+		"config/retreat/heroes/dingChan",
+		"config/retreat/heroes/faHai",
+		"config/retreat/heroes/fuGui",
+		"config/retreat/heroes/hanYou",
+		"config/retreat/heroes/huangPao",
+		"config/retreat/heroes/luDaShi",
+		"config/retreat/heroes/lvMu",
+		"config/retreat/heroes/mengDie",
+		"config/retreat/heroes/shanXianSheng",
+		"config/retreat/heroes/sunXiaoHou",
+		"config/retreat/heroes/sunYing",
+		"config/retreat/heroes/wangQuan",
+		"config/retreat/heroes/xiaoKui",
+		"config/retreat/heroes/xiaoQing",
+		"config/retreat/heroes/yan",
+		"config/retreat/heroes/yeye"
+	],
+	"objects" : 
+	[ 
+		"config/retreat/dwellings"
+	],
+	"changelog" :
+    {
+		"0.5.1" : [ "Special buildings support" ],
+		"0.5.0" : [ "Re-worked mod to match ERA original version" ]
+    }
+}

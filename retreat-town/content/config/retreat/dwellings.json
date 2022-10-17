@@ -1,0 +1,90 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"amVineYard" : {
+				"name" : "Vine Yard",
+				"creatures" : [[ "amHuluLeave" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"amTempl" : {
+				"name" : "Monkey Temple",
+				"creatures" : [[ "amMonkey" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			},
+			"amHallTrials" : {
+				"name" : "Hall of Trials",
+				"creatures" : [[ "amSwordServant" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VBV", "VBA" ]
+					}
+				}
+			},
+			"amWall" : {
+				"name" : "Wall of Carvings",
+				"creatures" : [[ "amBronzeMonk" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "retreat/map/dwellings/dwelling-4.def",
+						"mask" : [ "VVV", "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"amStatue" : {
+				"name" : "Statue of Goddess",
+				"creatures" : [[ "amGirlSnake" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-5.def",
+						"mask" : [ "VBV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"amDeepWoods" : {
+				"name" : "Deep Woods",
+				"creatures" : [[ "amDragonTurtle" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-6.def",
+						"mask" : [ "VVVVV", "VVVV", "VVVV", "VVBB", "VVAB" ]
+					}
+				}
+			},
+			"amEnchantedWoods" : {
+				"name" : "Enchanted Woods",
+				"creatures" : [[ "amWhiteDeer" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-8.def",
+						"mask" : [ "VVVVV", "VVVV", "VVVV", "VVBB", "VVAB" ]
+					}
+				}
+			},
+			"amMark" : {
+				"name" : "Mark of Eminence",
+				"creatures" : [[ "amEmeraldDragon" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

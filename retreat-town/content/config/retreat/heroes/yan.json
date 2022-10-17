@@ -1,0 +1,61 @@
+{
+	"yan" : 
+	{
+		"class" : "yingYanMaster",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Yan",
+			"biography" : "Yan is a surviver of the devastated Tu Shan Clan, which was one of the largest clan in land.",
+			"specialty" : 
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/yan/spec-small",
+			"specialtyLarge" : "retreat/heroes/yan/spec-large",
+			"large" : "retreat/heroes/yan/HPL005EL",
+			"small" : "retreat/heroes/yan/HPS005EL"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+    
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

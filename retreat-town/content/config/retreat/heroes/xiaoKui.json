@@ -1,0 +1,53 @@
+{
+	"xiaoKui" : 
+	{
+		"class" : "vanguard",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Xiao Kui",
+			"biography" : "Xiao Kui is a plant that has gained the human form.  She is able to devour monsters to grow herself. As she grows, buds sprout out of her body. Once the buds mature and fall off her body, they become her familiars.",
+			"specialty" : 
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
+				"tooltip" : "Skill Bonus: Offence", //or summon trolls
+				"name" : "Offence"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/xiaoKui/spec-small",
+			"specialtyLarge" : "retreat/heroes/xiaoKui/spec-large",
+			"large" : "retreat/heroes/xiaoKui/HPL006PL",
+			"small" : "retreat/heroes/xiaoKui/HPS006PL"
+		},
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "skill.offence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "basepath" : "retreat/frames/",
+	"images" :
+	[
+		{ "frame" : 0, "file" : "mg1"},
+		{ "frame" : 1, "file" : "mg2"},
+		{ "frame" : 2, "file" : "mg2"},
+		{ "frame" : 3, "file" : "mg2"},
+		{ "frame" : 49, "file" : "ThElDn_5"},
+		{ "frame" : 56, "file" : "ThElUp_5"},
+		{ "frame" : 43, "file" : "lvl7Upg"},
+		{ "frame" : 50, "file" : "lvl7Upg2"}
+	]
+}

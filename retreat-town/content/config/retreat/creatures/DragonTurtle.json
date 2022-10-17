@@ -1,0 +1,75 @@
+{
+	"amDragonTurtle":
+	{
+		"name" :
+		{
+			"plural" : "Dragon Turtles",
+			"singular" : "Dragon Turtle"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "retreat",
+		"aiValue" : 1664,
+		"attack" : 13,
+		"cost" :
+		{
+			"gold" : 900			
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 16
+		},
+		"defense" : 13,
+		"fightValue" : 1437,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/Mecha.DEF",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "retreat/map/Mecha.def",
+			"iconSmall" : "retreat/iconsSmall/Mecha.bmp",
+			"iconLarge" : "retreat/iconsBig/Mecha.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		"upgrades":
+		[
+			"amStoneDragonTurtle"
+		],
+		"sound" :
+		{
+			"attack": "retreat/STTRATTK.wav",
+			"defend": "retreat/STTRDFND.wav",
+			"killed": "retreat/STTRKILL.wav",
+			"move": "retreat/STTRMOVE.wav",
+			"wince": "retreat/STTRWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{     
+		    "waterImm" :
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 1
+			},
+			 "block" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val" : 30
+			},
+			"shield" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0, //shield effect
+				"val" : 20
+			}	
+		}
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"vanguard" : 
+	{
+		"name" : "Vanguard",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "retreat/CH16",
+				"male"   : "retreat/CH16"
+			}
+		},	
+		"mapObject" : { "templates" : { "default" : { "animation" : "retreat/AH16_", "editorAnimation": "retreat/AH16_e.def"	}}},
+		"commander" : "atPengHou",
+		"faction" : "retreat",
+		"affinity" : "might",
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 2,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 35,
+			"spellpower" : 20,
+			"knowledge"  : 15
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 20,
+			"knowledge"  : 20
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 6,
+			"archery"      : 6,
+			"logistics"    : 8,
+			"scouting"     : 6,
+			"diplomacy"    : 3,
+			"navigation"   : 3,
+			"leadership"   : 3,
+			"wisdom"       : 5,
+			"mysticism"    : 3,
+			"luck"         : 2,
+			"ballistics"   : 6,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 3,
+			"fireMagic"    : 3,
+			"airMagic"     : 3,
+			"waterMagic"   : 3,
+			"earthMagic"   : 3,
+			"scholar"      : 1,
+			"tactics"      : 8,
+			"artillery"    : 8,
+			"learning"     : 5,
+			"offence"      : 7,
+			"armorer"      : 7,
+			"intelligence" : 1,
+			"sorcery"      : 1,
+			"resistance"   : 4,
+			"firstAid"     : 2
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 5,
+			"rampart"    : 5,
+			"tower"      : 5,
+			"inferno"    : 5,
+			"necropolis" : 5,
+			"dungeon"    : 5,
+			"stronghold" : 5,
+			"fortress"   : 5,
+			"conflux"    : 5,
+			"retreat"    : 6                  
+		}
+	}
+}

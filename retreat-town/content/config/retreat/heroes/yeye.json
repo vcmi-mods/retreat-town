@@ -1,0 +1,44 @@
+{
+	"yeYe" : 
+	{
+		"class" : "vanguard",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Ye Ye",
+			"biography" : "Ye Ye is the keeper of the Hulu Mountain and an animable expert in botany. Not long ago, a pangolin digged through the mountain and accidentally released the sealed evil spirits. The old man is now calling up the 7 Hulu Brothers to hunt down the evil spirits again.",
+			"specialty" : 
+			{
+				"description" : "{Hulu Leaves and Hulu Flovers}\r\n\r\nIncreases Speed of any Hulu Leaves or Hulu Flovers by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip" : "Creature Bonus: Hulu Leaves",
+				"name" : "Hulu Leaves"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "retreat/heroes/yeYe/spec-small",
+			"specialtyLarge" : "retreat/heroes/yeYe/spec-large",
+			"large" : "retreat/heroes/yeYe/HPL001PL",
+			"small" : "retreat/heroes/yeYe/HPS001PL"
+		},
+		"army" :
+		[
+			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
+			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "pathfinding"
+			}
+		],
+    
+		"specialty" : {
+			"creature" : "amHuluLeave"
+		}
+	}
+}
+
+

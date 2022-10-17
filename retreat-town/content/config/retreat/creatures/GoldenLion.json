@@ -1,0 +1,96 @@
+{
+	"atGoldenLion":
+	{
+		"name" :
+		{
+			"plural" : "Golden Folangjis",
+			"singular" : "Golden Folangji"
+		},
+		"faction" : "neutral",
+		"level": 6,
+		"aiValue" : 650,
+		"special" : true,
+		"attack" : 10,
+        "cost": 
+        {
+           "gold": 3000
+        },
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 700,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/lion.def",
+			"iconSmall" : "retreat/iconsSmall/lion.bmp",
+			"iconLarge" : "retreat/iconsbig/Lion.png",
+//			"map" : "retreat/map/lionMap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "retreat/battle/projectile/SMCANX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 280,
+        "shots" : 24,
+		"sound" :
+		{
+			"killed": "retreat/goldenLion/CANNKILL.wav",
+			"shoot" : "retreat/goldenLion/CANNSHOT.wav",
+			"wince": "retreat/goldenLion/CANNWNCE.wav"
+		},
+		"speed" : 0,
+		"abilities" :
+		{
+        	"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"thunderStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.thunderbolt",
+				"val" : 10
+			},
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.thunderbolt",
+				"val" : 20
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+			"noRetaliation" : 
+			{
+                "val" : 0,
+                "type" : "NO_RETALIATION"
+            }
+		}
+	}
+}

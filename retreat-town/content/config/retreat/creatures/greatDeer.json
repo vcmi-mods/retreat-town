@@ -1,0 +1,79 @@
+{
+	"amGreatDeer":
+	{
+		"name" :
+		{
+			"plural" : "Great Deers",
+			"singular" : "Great Deer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "retreat",
+		"aiValue" : 2057,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 16
+		},
+		"defense" : 15,
+		"fightValue" : 1740,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/cr211alt",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "retreat/map/avw211alt",
+			"iconSmall" : "retreat/iconsSmall/211",
+			"iconLarge" : "retreat/iconsBig/CR211b",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "retreat/s210ATTK",
+			"defend": "retreat/s210DFND",
+			"killed": "retreat/s210KILL",
+			"move": "retreat/s210MOVE",
+			"wince": "retreat/s210WNCE"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"fearless" :
+            {
+				"type" : "FEARLESS"
+			},
+			"castsBerserk" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.berserk",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"spellResistAura" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 30
+			}			
+		}
+	}
+}

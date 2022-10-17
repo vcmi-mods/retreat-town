@@ -1,0 +1,76 @@
+{
+	"amStoneDragonTurtle":
+	{
+		"name" :
+		{
+			"plural" : "Bi Xis",
+			"singular" : "Bi Xi"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "retreat",
+		"aiValue" : 2094,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 16
+		},
+		"defense" : 15,
+		"fightValue" : 1771,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/Warrior.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "retreat/map/Warrior.def",
+			"iconSmall" : "retreat/iconsSmall/Warrior.bmp",
+			"iconLarge" : "retreat/iconsBig/Warrior.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "retreat/STTRATTK.wav",
+			"defend": "retreat/STTRDFND.wav",
+			"killed": "retreat/STTRKILL.wav",
+			"move": "retreat/STTRMOVE.wav",
+			"wince": "retreat/STTRWNCE.wav"
+                     
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"directdamageimmunity" :
+            {
+				"type" : "DIRECT_DAMAGE_IMMUNITY",
+			},
+			"waterImmunity" :
+            {
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 1
+			},
+			 "block" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val" : 30
+			},
+			"shield" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0, //shield effect
+				"val" : 30
+			}	
+		}
+	}
+}
