@@ -10,7 +10,7 @@
 		"description" : "Rückzugsort Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/retreat/german.json"
 		]
 	},
 	"factions" :
