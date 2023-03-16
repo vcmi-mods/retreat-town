@@ -5,7 +5,14 @@
 	"contact" : "https://vk.com/club161023181",
 	"version" : "0.5.1",
 	"modType" : "Town",
-
+    	"german" : {
+		"name" : "Rückzugsort",
+		"description" : "Rückzugsort Stadt",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/retreat/german.json"
+		]
+	},
 	"factions" :
 	[
 		"config/retreat/town/buildings",
