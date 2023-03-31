@@ -8,7 +8,6 @@
     	"german" : {
 		"name" : "Rückzugsort",
 		"description" : "Rückzugsort Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/retreat/german.json"
 		]
