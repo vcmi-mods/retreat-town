@@ -3,14 +3,18 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.5.1",
+	"version" : "0.5.2",
 	"modType" : "Town",
-    	"german" : {
+    "german" : {
 		"name" : "Rückzugsort",
 		"description" : "Rückzugsort Stadt",
 		"translations" : [
 			"translation/retreat/german.json"
 		]
+	},
+	"compatibility" :
+	{
+		"min" : "1.2.0"
 	},
 	"factions" :
 	[
@@ -54,7 +58,6 @@
 	[
 		"config/retreat/classes/vanguard",
 		"config/retreat/classes/yingYanMaster"
-
 	],
 
 	"heroes" :
@@ -82,6 +85,7 @@
 	],
 	"changelog" :
     {
+		"0.5.2" : [ "Update to vcmi-1.2" ],
 		"0.5.1" : [ "Special buildings support" ],
 		"0.5.0" : [ "Re-worked mod to match ERA original version" ]
     }

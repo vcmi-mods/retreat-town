@@ -1,4 +1,4 @@
-198{
+{
 	"amHuluBrother":
 	{
 		"name" :
@@ -30,7 +30,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR198h.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/avw198",
 			"iconSmall" : "retreat/iconsSmall/198",
 			"iconLarge" : "retreat/iconsBig/CR198",
@@ -49,8 +49,7 @@
 					"lowerY" : -55
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
-			
+			}
 		},
                 "shots" : 24,
 		"growth" : 9,

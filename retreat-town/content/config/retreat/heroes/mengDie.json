@@ -46,8 +46,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"sorrow" : {
+					"addInfo" : 3,
 					"subtype" : "spell.sorrow",
-					"type" : "MAXED_SPELL"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		}

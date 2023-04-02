@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/Hunter.def",
-			"animationTime" : { "attack" : 0.6, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 0.6, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/Hunter.def",
 			"iconSmall" : "retreat/iconsSmall/Hunter.bmp",
 			"iconLarge" : "retreat/iconsBig/Hunter.bmp",

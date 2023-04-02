@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR200.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/CR200.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS200F.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL200B.bmp",

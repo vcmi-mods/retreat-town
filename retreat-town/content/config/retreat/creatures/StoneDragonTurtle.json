@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/Warrior.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/Warrior.def",
 			"iconSmall" : "retreat/iconsSmall/Warrior.bmp",
 			"iconLarge" : "retreat/iconsBig/Warrior.bmp",
@@ -52,7 +52,7 @@
 		{
 			"directdamageimmunity" :
             {
-				"type" : "DIRECT_DAMAGE_IMMUNITY",
+				"type" : "DIRECT_DAMAGE_IMMUNITY"
 			},
 			"waterImmunity" :
             {

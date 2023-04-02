@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/Mecha.DEF",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/Mecha.def",
 			"iconSmall" : "retreat/iconsSmall/Mecha.bmp",
 			"iconLarge" : "retreat/iconsBig/Mecha.bmp",

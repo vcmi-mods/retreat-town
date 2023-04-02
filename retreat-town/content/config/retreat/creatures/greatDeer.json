@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/cr211alt",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/avw211alt",
 			"iconSmall" : "retreat/iconsSmall/211",
 			"iconLarge" : "retreat/iconsBig/CR211b",

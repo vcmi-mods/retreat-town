@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/pyro.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/pyro.def",
 			"iconSmall" : "retreat/iconsSmall/pyro.bmp",
 			"iconLarge" : "retreat/iconsBig/pyro.bmp",

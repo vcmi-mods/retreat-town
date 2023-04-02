@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
-				"tooltip" : "Skill Bonus: Offence", //or summon trolls
+				"tooltip" : "Skill Bonus: Offence",
 				"name" : "Offence"
 			}
 		},
@@ -41,11 +41,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {
-					"subtype" : "skill.offence",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : 0,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/Fighter.def",
-			"animationTime" : { "attack" : 0.6, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 0.6, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/Fighter.def",
 			"iconSmall" : "retreat/iconsSmall/Fighter.bmp",
 			"iconLarge" : "retreat/iconsBig/Fighter.bmp",

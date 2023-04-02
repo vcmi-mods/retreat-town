@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/maniac.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/maniac.def",
 			"iconSmall" : "retreat/iconsSmall/maniac.bmp",
 			"iconLarge" : "retreat/iconsBig/maniac.bmp",

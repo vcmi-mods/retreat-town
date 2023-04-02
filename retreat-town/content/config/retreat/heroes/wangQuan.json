@@ -41,7 +41,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"artillery" : {
-					"subtype" : "creature.ammoCart", //troche bez sensu - może wiecej HP ammoCart?
+					"subtype" : "creature.ammoCart",
 					"type" : "STACK_HEALTH",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 50,

@@ -6,8 +6,8 @@
 			"structures" :
 			{
 				"extraAnimation4":{ "animation" : "TBELEXT5.def", "x" : 682, "y" : 183,  "z" : -1 },
-				"extraAnimation3":{ "animation" :  "retreat/town-screen/buildings/TBELExt4.def", "x" : 0, "y" : 0,  },
-				"extraAnimation2":{ "animation" :  "retreat/town-screen/buildings/TBELExt2.def", "x" : 0, "y" : 0, },
+				"extraAnimation3":{ "animation" :  "retreat/town-screen/buildings/TBELExt4.def", "x" : 0, "y" : 0 },
+				"extraAnimation2":{ "animation" :  "retreat/town-screen/buildings/TBELExt2.def", "x" : 0, "y" : 0 },
 				"extraAnimation": { "animation" :  "retreat/town-screen/buildings/TBELEXT3.def", "x" : 0,  "y" : 0 },
 				"mageGuild1" :     { "animation" : "retreat/town-screen/buildings/TBELmage.def", "x" : 407, "y" : 0,  "z" : 35,  "border" : "retreat/town-screen/buildings-border/TOELmag2.bmp", "area" : "retreat/town-screen/buildings-area/TZELmag2.bmp" },
 				"mageGuild2" :     { "animation" : "retreat/town-screen/buildings/TBELmagx.def", "x" : 407, "y" : 0,  "z" : 35,  "border" : "retreat/town-screen/buildings-border/TOELmag2.bmp", "area" : "retreat/town-screen/buildings-area/TZELmag2.bmp" },
@@ -28,7 +28,7 @@
 				"blacksmith" :     { "animation" : "retreat/town-screen/buildings/TBELblak.def", "x" : 572, "y" : 191, "z" : 2,  "border" : "retreat/town-screen/buildings-border/TOELblak.bmp", "area" : "retreat/town-screen/buildings-area/TZELblak.bmp" },
 				"special1" :       { "animation" : "retreat/town-screen/buildings/TBELspec.def", "x" : 0, "y" : 0, "z" : 2,      "border" : "retreat/town-screen/buildings-border/TOELspec.bmp", "area" : "retreat/town-screen/buildings-area/TZELspec.bmp" },
 				"horde1" :         { "animation" : "retreat/town-screen/buildings/TBELhrd1.def", "x" : 615, "y" : 0, "z" : 1,    "border" : "retreat/town-screen/buildings-border/TOELhrd1.bmp", "area" : "retreat/town-screen/buildings-area/TZELhrd1.bmp", "hidden" : true },
-				"horde1Upgr" :     { "animation" : "retreat/town-screen/buildings/TBELhrd2.def", "x" : 615, "y" : 0, "z" : 1,    "border" : "retreat/town-screen/buildings-border/TOELhrd2.bmp", "area" : "retreat/town-screen/buildings-area/TZELhrd2.bmp", "hidden" : true, "builds" : "horde1", },
+				"horde1Upgr" :     { "animation" : "retreat/town-screen/buildings/TBELhrd2.def", "x" : 615, "y" : 0, "z" : 1,    "border" : "retreat/town-screen/buildings-border/TOELhrd2.bmp", "area" : "retreat/town-screen/buildings-area/TZELhrd2.bmp", "hidden" : true, "builds" : "horde1" },
 				"ship":            { "animation" : "retreat/town-screen/buildings/TBELBOAT.def", "x" : 0, "y" : 0, "z" : 1,      "border" : "retreat/town-screen/buildings-border/TOELBOAT.bmp", "area" : "retreat/town-screen/buildings-area/TZELBOAT.bmp", "hidden" : true },
 				"special2" :       { "animation" : "retreat/town-screen/buildings/TBELext6.def", "x" : 386, "y" : 275, "z" : 1,  "border" : "retreat/town-screen/buildings-border/TOELext6.bmp", "area" : "retreat/town-screen/buildings-area/TZELext6.bmp" },
 				"grail" :          { "animation" : "retreat/town-screen/buildings/TBELholy.def", "x" : 0, "y" : 0, "z" : 1,      "border" : "retreat/town-screen/buildings-border/TOELholy.bmp", "area" : "retreat/town-screen/buildings-area/TZELholy.bmp" },
@@ -48,8 +48,7 @@
 				"dwellingUpLvl7" : { "animation" : "retreat/town-screen/buildings/TBELup_6.def", "x" : 0, "y" : 0, "z" : 1,      "border" : "retreat/town-screen/buildings-border/TOELDw_6",     "area" : "retreat/town-screen/buildings-area/TZELup_6.bmp" },
 			    "dwellingUp2Lvl7" : { "animation" : "retreat/town-screen/buildings/TBELup2_6.def", "x" : 0, "y" : 0, "z" : 1,     "border" : "retreat/town-screen/buildings-border/TOELDw_6",     "area" : "retreat/town-screen/buildings-area/TZELup_6.bmp" },
 				"dwellingUpLvl6" : { "animation" : "retreat/town-screen/buildings/TBELup_5.def", "x" : 80, "y" : 43,  "z" : 0,   "border" : "retreat/town-screen/buildings-border/TOELUp_5.bmp", "area" : "retreat/town-screen/buildings-area/TZELUp_5.bmp" },
-				"dwellingUpLvl6B" : { "animation" : "retreat/town-screen/buildings/TBELup_5alt.def", "x" : 80, "y" : 43,  "z" : 0,   "border" : "retreat/town-screen/buildings-border/TOELUp_5.bmp", "area" : "retreat/town-screen/buildings-area/TZELUp_5.bmp" },
-		
+				"dwellingUpLvl6B" : { "animation" : "retreat/town-screen/buildings/TBELup_5alt.def", "x" : 80, "y" : 43,  "z" : 0,   "border" : "retreat/town-screen/buildings-border/TOELUp_5.bmp", "area" : "retreat/town-screen/buildings-area/TZELUp_5.bmp" }
 			}
 		}
 	}

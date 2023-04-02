@@ -19,7 +19,7 @@
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
 				[ [ "special2" ], [ "special1" ], [ "horde1", "horde1Upgr" ] ],
 				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl6B", "dwellingUpLvl6B" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ],  ]
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl6B", "dwellingUpLvl6B" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ]  ]
 			],
 			"creatures" :
 			[

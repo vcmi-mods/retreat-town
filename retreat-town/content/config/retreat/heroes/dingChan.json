@@ -47,8 +47,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"dispel" : {
+					"addInfo" : 3,
 					"subtype" : "spell.dispel",
-					"type" : "MAXED_SPELL"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		}

@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR203.def",
-			"animationTime" : { "attack" : 0.8, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 0.8, "idle" : 10, "walk" : 1 },
 			"map" : "retreat/map/CR203.def",
 			"iconSmall" : "retreat/iconsSmall/CPRS203F.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL203B.bmp",

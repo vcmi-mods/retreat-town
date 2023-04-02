@@ -7,6 +7,8 @@
 			{
 				"shooter" : "amGirlSnake",
 				"imagePrefix" : "retreat/siege/SGCS",
+				"towerIconSmall" : "retreat/icons/arrowtowersmall",
+				"towerIconLarge" : "retreat/icons/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 486, "y" : 232 },
