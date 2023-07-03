@@ -3,8 +3,14 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.5.2",
+	"version" : "0.5.3",
 	"modType" : "Town",
+    "chinese" : {
+		"name" : "桃源",
+		"translations" : [
+			"translation/retreat/chinese.json"
+		]
+	},
     "german" : {
 		"name" : "Rückzugsort",
 		"description" : "Rückzugsort Stadt",
@@ -85,6 +91,7 @@
 	],
 	"changelog" :
     {
+		"0.5.3" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.5.2" : [ "Update to vcmi-1.2" ],
 		"0.5.1" : [ "Special buildings support" ],
 		"0.5.0" : [ "Re-worked mod to match ERA original version" ]
