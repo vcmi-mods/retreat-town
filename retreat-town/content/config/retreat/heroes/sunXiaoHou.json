@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "{Monkeys and Monkey Elders}\r\n\r\nIncreases Speed of any Monkeys or Monkey Elders by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
-				"tooltip" : "Creature Bonus: aMonkey",
+				"tooltip" : "Creature Bonus: Monkey",
 				"name" : "Monkeys"
 			}
 		},

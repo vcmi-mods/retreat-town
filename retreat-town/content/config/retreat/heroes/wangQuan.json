@@ -9,7 +9,7 @@
 			"biography" : "Wang Quan is a master of sword and has a high position in the Taoist Alliance. Few have seen him using a sword.",
 			"specialty" : 
 			{
-				"description" : "{}\r\n\r\nIncreases Ammo Cart health by 50%.",
+				"description" : "{Ammo Cart}\r\n\r\nIncreases Ammo Cart health by 50%.",
 				"tooltip" : "Creature Bonus: Ammo Cart", //additional ammo cart in battles
 				"name" : "Ammo Cart"
 			}
