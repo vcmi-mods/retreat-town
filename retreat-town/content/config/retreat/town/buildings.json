@@ -442,8 +442,8 @@
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "Deep Woods allow to recruit Bi Xis.",
-					"name" : "Upg. Deep Woods",
+					"description" : "Deep Forest allows to recruit Bi Xis.",
+					"name" : "Deep Forest",
 					"cost" : {
 						"gold" : 3500,
 						"wood" : 15,
@@ -457,8 +457,8 @@
 				},
 				"dwellingUpLvl6B" :
 				{
-					"description" : "Enchanting Woods allow to recruit Great Deers.",
-					"name" : "Upg. Enchanting Woods",
+					"description" : "Enchanting Forest allows to recruit Great Deers.",
+					"name" : "Enchanting Forest",
 					"cost" : {
 						"gold" : 3500,
 						"wood" : 15,

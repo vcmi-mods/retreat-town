@@ -9,7 +9,7 @@
 			"biography" : "With strong Taoist power, Huang Pao is able to travel between the worlds of the living and the dead. However, he was expelled from the Taoist Alliance for practicing prohibited dark magics.",
 			"specialty" : 
 			{
-				"description" : "{Resurrection}\r\n\r\nCasts Resurrectione with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"description" : "{Resurrection}\r\n\r\nCasts Resurrection spell with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}

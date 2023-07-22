@@ -11,7 +11,14 @@
 			"translation/retreat/chinese.json"
 		]
 	},
-    "german" : {
+	"french" : {
+		"name" : "Retraite",
+		"description" : "Ville chinoise à l'âge d'or de l'empire du milieu",
+		"translations" : [
+			"translation/retreat/french.json"
+		]
+	},
+	"german" : {
 		"name" : "Rückzugsort",
 		"description" : "Rückzugsort Stadt",
 		"translations" : [
