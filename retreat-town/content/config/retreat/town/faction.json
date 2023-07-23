@@ -1,6 +1,7 @@
 {
 	"retreat" : {
 		"alignment" : "good",
+		"boat" : "boatCastle",
 		"creatureBackground" : { "120px" : "retreat/creature-bg-120px", "130px" : "retreat/creature-bg-130px" },
 		"name" : "Retreat",
 		"nativeTerrain" : "grass",
@@ -31,8 +32,8 @@
 				[ "amDragonTurtle", "amStoneDragonTurtle", "amWhiteDeer", "amGreatDeer" ],
 				[ "amEmeraldDragon", "amScarletDragon", "amSilverDragon" ]
 			],
-			"moatDamage" : 90,
 			"horde" : [ 0 , 1],
+			"moatAbility" : "retreatMoat",
 			"mageGuild" : 5,
 			"primaryResource" : "gems",
 			"warMachine" : "atGoldenLion",
