@@ -1,12 +1,13 @@
 {
 	"name" : "Retreat",
 	"description" : "Retreat Town ported from vcmi",
-	"author" : "XEricSin, Zeryss, acidchalk, avatar.",
+	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.5.4",
+	"version" : "0.5.5",
 	"modType" : "Town",
 	"changelog" :
     {
+		"0.5.5" : [ "New portraits", "Improved french translation" ],
 		"0.5.4" : [ "Update to vcmi-1.3" ],
 		"0.5.3" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.5.2" : [ "Update to vcmi-1.2" ],
