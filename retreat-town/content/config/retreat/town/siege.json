@@ -21,7 +21,7 @@
 				},
 				"static" :
 				{
-					"background" : { "x" : 610, "y" : 45 },
+					"background" : { "x" : 609, "y" : 45 },
 					"bottom" : { "x" : 507, "y" : 364 },
 					"top" : { "x" : 485, "y" : 104 }
 				},
