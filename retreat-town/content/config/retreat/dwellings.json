@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "retreat/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VVV", "VBV", "VAV" ]
+						"mask" : [ "VVV", "VVV", "VBB", "VAA" ]
 					}
 				}
 			},
