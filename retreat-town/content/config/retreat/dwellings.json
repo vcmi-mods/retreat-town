@@ -34,6 +34,9 @@
 			"amWall" : {
 				"name" : "Wall of Carvings",
 				"creatures" : [[ "amBronzeMonk" ]],
+				"sounds": {
+					"ambient": ["dwellings/dwelling-4.wav"]
+				},
 				"templates" : {
 					"default" : {	
 						"animation" : "retreat/map/dwellings/dwelling-4.def",
