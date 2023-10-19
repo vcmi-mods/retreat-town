@@ -14,6 +14,9 @@
 			"amTempl" : {
 				"name" : "Monkey Temple",
 				"creatures" : [[ "amMonkey" ]],
+				"sounds": {
+					"ambient": ["dwellings/rtrdwl2.wav"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-2.def",
@@ -35,7 +38,7 @@
 				"name" : "Wall of Carvings",
 				"creatures" : [[ "amBronzeMonk" ]],
 				"sounds": {
-					"ambient": ["dwellings/dwelling-4.wav"]
+					"ambient": ["dwellings/rtrdwl4.wav"]
 				},
 				"templates" : {
 					"default" : {	
