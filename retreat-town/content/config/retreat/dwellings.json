@@ -50,6 +50,9 @@
 			"amStatue" : {
 				"name" : "Statue of Goddess",
 				"creatures" : [[ "amGirlSnake" ]],
+				"sounds": {
+					"ambient": ["dwellings/rtrdwl5.wav"]
+				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
