@@ -86,6 +86,9 @@
 			"amMark" : {
 				"name" : "Mark of Eminence",
 				"creatures" : [[ "amEmeraldDragon" ]],
+				"sounds": {
+					"ambient": ["dwellings/rtrdwl7.wav"]
+				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
