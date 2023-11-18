@@ -1,0 +1,96 @@
+{
+	"amSnakeBearer":
+	{
+		"name" :
+		{
+			"plural" : "Snake Bearers",
+			"singular" : "Snake Bearer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "retreat",
+		"aiValue" : 1802,
+		"fightValue" : 1508,
+		"attack" : 15,
+		"defense" : 15,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"speed" : 9,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR210.def",
+			"map" : "retreat/map/AVW210.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS210.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL210.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.33,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "PMAGEX.def",
+				"attackClimaxFrame" : 12,
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -20
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"hitPoints" : 110,
+		"doubleWide" : true,
+        "growth" : 2,
+		"level" : 6,
+		"upgrades":
+		[
+			"amJiuYing"
+		],
+//		"shots" : 24,	!!!	
+		"sound" :
+		{
+			
+			"attack": "retreat/MIKOATTK.wav",
+			"defend": "retreat/MIKODFND.wav",
+			"killed": "retreat/GISNKILL.wav",
+			"move": "retreat/MIKOMOVE.wav",
+			"shoot": "retreat/GISNSHOT.wav",
+			"wince": "retreat/MIKOWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER" //casts 1
+			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"poison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 100,
+				"addInfo" : [0,2]
+			}
+		}
+	}
+}

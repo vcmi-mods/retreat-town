@@ -1,5 +1,5 @@
 {
-	"yeYe" : 
+	"01yeYe" : 
 	{
 		"class" : "vanguard",
 		"female" : false,
@@ -9,7 +9,7 @@
 			"biography" : "Ye Ye is the keeper of the Hulu Mountain and an admirable expert in botany. Not long ago, a pangolin dug through the mountain and accidentally released the sealed evil spirits. The old man is now calling up the 7 Hulu Brothers to hunt down the evil spirits again.",
 			"specialty" : 
 			{
-				"description" : "{Hulu Leaves and Hulu Flowers}\r\n\r\nIncreases Speed of any Hulu Leaves or Hulu Flowers by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"description" : "{Hulu Leaves}\r\n\r\nIncreases Speed of any Hulu Leaves, Hulu Flowers or Hulu Vines by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
 				"tooltip" : "Creature Bonus: Hulu Leaves",
 				"name" : "Hulu Leaves"
 			}
@@ -23,9 +23,9 @@
 		},
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[
@@ -36,7 +36,7 @@
 		],
     
 		"specialty" : {
-			"creature" : "amHuluLeave"
+			"creature" : "amHuluLeaf"
 		}
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"luDaShi" : 
+	"15luDaShi" : 
 	{
 		"class" : "yingYanMaster",
 		"female" : false,
@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "{Mysticism}\r\n\r\nReceives a 7% per level bonus to Mysticism skill percentage.",
-				"tooltip" : "Skill Bonus: Mysticism",  //or tactics?
+				"tooltip" : "Skill Bonus: Mysticism",
 				"name" : "Mysticism"
 			}
 		},
@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[

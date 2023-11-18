@@ -1,17 +1,17 @@
 {
-	"hanYou" : 
+	"04hanYou" : 
 	{
 		"class" : "vanguard",
 		"female" : false,
 		"texts" :
 		{
 			"name" : "Han You",
-			"biography" : "Han Yu is a professional contract killer. If you want to do business with him, make sure you have enough money.",
+			"biography" : "Han Yu is a cold-blooded professional contract killer. If you want to do business with him, make sure you have enough money.",
 			"specialty" : 
 			{
-				"description" : "{Sword Keepers and Sword Riders}\r\n\r\nIncreases Speed of any Sword Keepers or Sword Riders by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
-				"tooltip" : "Creature Bonus: Sword Keepers",
-				"name" : "Sword Keepers"
+				"description" : "{Cultivators}\r\n\r\nIncreases Speed of any Cultivators, Sword Cultivators or Golden Core Cultivators by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Cultivators",
+				"name" : "Cultivators"
 			}
 		},
 		"images" :
@@ -23,9 +23,9 @@
 		},
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 },
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[
@@ -39,7 +39,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "amSwordServant"
+			"creature" : "amCultivator"
 		} 
 	}
 }

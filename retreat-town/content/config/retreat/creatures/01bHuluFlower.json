@@ -1,0 +1,64 @@
+{
+	"amHuluFlower":
+	{
+		"name" :
+		{
+			"plural" : "Hulu Flowers",
+			"singular" : "Hulu Flower"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 20
+		},
+		"faction" : "retreat",
+		"hasDoubleWeek" : true,
+		"aiValue" : 75,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 3,
+		"fightValue" : 72,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.4 },
+			"map" : "retreat/map/AVW200.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS200.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL200.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 5,
+		"horde" : 10,
+		"level" : 1,
+		"upgrades":
+		[
+			"amHuluVine"
+		],
+		"sound" :
+		{
+			"attack": "retreat/GRPLATTK.wav",
+			"defend": "retreat/GRPLDFND.wav",
+			"killed": "retreat/GRPLKILL.wav",
+			"move": "retreat/GRPLMOVE.wav",
+			"wince": "retreat/GRPLWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{	
+			"strikeAndReturn" :
+            {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		}
+	}
+}

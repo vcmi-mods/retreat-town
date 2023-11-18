@@ -1,0 +1,90 @@
+{
+	"amSwordCultivator":
+	{
+		"name" :
+		{
+			"plural" : "Sword Cultivators",
+			"singular" : "Sword Cultivator"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "retreat",
+		"aiValue" : 336,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 280
+		},
+		"damage" :
+		{
+			 "max" : 7,
+			 "min" : 4
+		},
+		"shots" : 4, //!!
+		"defense" : 7,
+		"fightValue" : 321,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR204.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.33 },
+			"map" : "retreat/map/AVW204.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS204.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL204.bmp",
+			"timeBetweenFidgets" : 1,
+		    "missile" :
+			{
+				"attackClimaxFrame" : 7,
+				"projectile": "Phalf.DEF",
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -20
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },
+
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"upgrades":
+		[
+			"amGoldenCoreCultivator"
+		],
+		"sound" :
+		{
+			"attack": "retreat/s206ATTK",
+			"defend": "retreat/s206DFND",
+			"killed": "retreat/s206KILL",
+			"move": "retreat/s206MOVE",
+			"wince": "retreat/s206WNCE"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+		"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"defencing" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 40
+			},
+			"disruptingRay" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 20
+			}
+		}
+	}
+}

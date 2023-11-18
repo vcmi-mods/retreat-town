@@ -1,0 +1,60 @@
+{
+	"amHuluLeaf":
+	{
+		"name" :
+		{
+			"plural" : "Hulu Leaves",
+			"singular" : "Hulu Leaf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "retreat",
+		"hasDoubleWeek" : true,
+		"aiValue" : 63,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 40
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 3,
+		"fightValue" : 61,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.4 },
+			"map" : "retreat/map/AVW199.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS199.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL199.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 14,
+		"hitPoints" : 4,
+		"horde" : 10,
+		"level" : 1,
+		"upgrades":
+		[
+			"amHuluFlower"
+		],
+		"sound" :
+		{
+			"attack": "retreat/GRPLATTK.wav",
+			"defend": "retreat/GRPLDFND.wav",
+			"killed": "retreat/GRPLKILL.wav",
+			"move": "retreat/GRPLMOVE.wav",
+			"wince": "retreat/GRPLWNCE.wav"
+		},
+		"speed" : 4,
+        "abilities" :
+		{	
+		}
+	}
+}

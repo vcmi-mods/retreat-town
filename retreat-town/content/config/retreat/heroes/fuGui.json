@@ -1,16 +1,16 @@
 {
-	"fuGui" : 
+	"13fuGui" : 
 	{
 		"class" : "yingYanMaster",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "Fu Gui",
-			"biography" : "Fu Gui is born a successful merchant and entrepreneur. His capability and personality are both highly recognised by the folks.",
+			"name" : "Sheng Fu Gui",
+			"biography" : "Sheng Fu Gui is born a successful merchant and entrepreneur. His capability and personality are both highly recognised by the folks.",
 			"specialty" : 
 			{
-				"description" : "{Estates}\r\n\r\nStarts with Expert Estates.",
-				"tooltip" : "Skill Bonus: Estates", //start with expert estates
+				"description" : "{Estates}\r\n\r\nStarts with Advanced Estates.",
+				"tooltip" : "Skill Bonus: Estates",
 				"name" : "Estates"
 			}
 		},
@@ -27,14 +27,14 @@
 		],
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[
 			{
-				"level" : "expert",
+				"level" : "advanced",
 				"skill" : "estates"
 			}
 		],

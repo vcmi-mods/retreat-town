@@ -1,0 +1,64 @@
+{
+	"amCultivator":
+	{
+		"name" :
+		{
+			"plural" : "Cultivators",
+			"singular" : "Cultivator"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "retreat",
+		"aiValue" : 237,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 15
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 246,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR203.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.33 },
+			"map" : "retreat/map/AVW203.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS203.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL203.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"amSwordCultivator"
+		],
+		"sound" :
+		{
+			"attack": "retreat/s206ATTK",
+			"defend": "retreat/s206DFND",
+			"killed": "retreat/s206KILL",
+			"move": "retreat/s206MOVE",
+			"wince": "retreat/s206WNCE"
+		},
+		"speed" : 6,
+		"abilities": //nie strzela
+		{
+			"defencing" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 40
+			}
+		}
+	}
+}
+

@@ -1,5 +1,5 @@
 {
-	"huangPao" : 
+	"09huangPao" : 
 	{
 		"class" : "yingYanMaster",
 		"female" : false,
@@ -27,15 +27,15 @@
 		],
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "earthMagic"
+				"skill" : "intelligence"
 			},
 			{
 				"level" : "basic",

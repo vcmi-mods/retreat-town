@@ -1,0 +1,80 @@
+{
+	"amDhutaSeeker":
+	{
+		"name" :
+		{
+			"plural" : "Dhuta Seekers",
+			"singular" : "Dhuta Seeker"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "retreat",
+		"aiValue" : 551,
+		"attack" : 10,
+        "cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 5
+		},
+		"shots": 1, //!
+		"defense" : 12,
+		"fightValue" : 484,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR206.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.4 },
+			"map" : "retreat/map/AVW206.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS206.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL206.bmp",
+			"timeBetweenFidgets" : 1,
+		    "missile" :
+			{
+				"attackClimaxFrame" : 6,
+				"projectile": "Phalf.DEF",
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -95,
+					"middleX" : 61,
+					"middleY" : -49,
+					"lowerX" : 28,
+					"lowerY" : -20
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },
+		"growth" : 4,
+		"hitPoints" : 50,
+		"level" : 4,
+		"upgrades":
+		[
+			"amDhutaVenerable"
+		],
+		"sound" :
+		{       
+            "attack": "retreat/BGLOATTK.wav",
+			"defend": "retreat/BGLODFND.wav",
+			"killed": "retreat/BGLOKILL.wav",
+			"move": "retreat/BGLOMOVE.wav",
+			"wince": "retreat/BGLOWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{              
+            "forgetMe" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 35,
+				"limiters" : [ "SHOOTER_ONLY" ]
+			}
+		}
+	}
+}

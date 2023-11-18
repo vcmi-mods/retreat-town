@@ -1,5 +1,5 @@
 {
-	"sunYing" : 
+	"06sunYing" : 
 	{
 		"class" : "vanguard",
 		"female" : false,
@@ -23,7 +23,7 @@
 		},
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 }
 		],

@@ -5,7 +5,7 @@
 		{
 			"siege" :
 			{
-				"shooter" : "amGirlSnake",
+				"shooter" : "amSnakeGrasper",
 				"imagePrefix" : "retreat/siege/SGCS",
 				"towerIconSmall" : "retreat/icons/arrowtowersmall",
 				"towerIconLarge" : "retreat/icons/arrowtowerslarge",

@@ -1,0 +1,94 @@
+{
+	"amJadeDragon":
+	{
+		"name" :
+		{
+			"plural" : "Jade Dragons",
+			"singular" : "Jade Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "retreat",
+		"aiValue" : 9924,
+		"attack" : 24,
+		"cost" :
+		{
+			"gold" : 4500,
+			"gems" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 40
+		},
+		"defense" : 30,
+		"fightValue" : 7705,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR212.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.25 },
+			"map" : "retreat/map/AVW212.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS212.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL212.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"upgrades":
+		[
+			"amYingLong"
+		],
+		"sound" :
+		{
+			"attack" : "retreat/SCDRATTK.wav",
+			"defend" : "retreat/SCDRDFND.wav",
+			"killed" : "retreat/SCDRKILL.wav",
+			"move"   : "retreat/SCDRMOVE.wav",
+			"wince"  : "retreat/SCDRWNCE.wav"
+                     
+		},
+		"speed" : 17,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"fireImmunity" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+            },
+			"spellFireWall" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fireWall",
+				"val" : 50,
+				"addInfo" : 3
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"twohexattackbreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"healer" : 
+			{
+				"type" : "HEALER"
+			}
+		}
+	}
+}
+

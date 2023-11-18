@@ -3,7 +3,7 @@
 		"types" : {
 			"amVineYard" : {
 				"name" : "Vine Yard",
-				"creatures" : [[ "amHuluLeave" ]],
+				"creatures" : [[ "amHuluLeaf" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-1.def",
@@ -26,7 +26,7 @@
 			},
 			"amHallTrials" : {
 				"name" : "Hall of Trials",
-				"creatures" : [[ "amSwordServant" ]],
+				"creatures" : [[ "amCultivator" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-3.def",
@@ -36,7 +36,7 @@
 			},
 			"amWall" : {
 				"name" : "Wall of Carvings",
-				"creatures" : [[ "amBronzeMonk" ]],
+				"creatures" : [[ "amDhutaWalker" ]],
 				"sounds": {
 					"ambient": ["dwellings/rtrdwl4.wav"]
 				},
@@ -47,9 +47,20 @@
 					}
 				}
 			},
+			"amDeepWoods" : {
+				"name" : "Deep Woods",
+				"creatures" : [[ "amDeerGirl" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "retreat/map/dwellings/dwelling-6.def",
+						"mask" : [ "VVVVV", "VVVV", "VVVV", "VVBB", "VVAB" ]
+					}
+				}
+			},
 			"amStatue" : {
 				"name" : "Statue of Goddess",
-				"creatures" : [[ "amGirlSnake" ]],
+				"creatures" : [[ "amSnakeGrasper" ]],
 				"sounds": {
 					"ambient": ["dwellings/rtrdwl5.wav"]
 				},
@@ -61,31 +72,9 @@
 					}
 				}
 			},
-			"amDeepWoods" : {
-				"name" : "Deep Woods",
-				"creatures" : [[ "amDragonTurtle" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "retreat/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVVVV", "VVVV", "VVVV", "VVBB", "VVAB" ]
-					}
-				}
-			},
-			"amEnchantedWoods" : {
-				"name" : "Enchanted Woods",
-				"creatures" : [[ "amWhiteDeer" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "retreat/map/dwellings/dwelling-8.def",
-						"mask" : [ "VVVVV", "VVVV", "VVVV", "VVBB", "VVAB" ]
-					}
-				}
-			},
 			"amMark" : {
 				"name" : "Mark of Eminence",
-				"creatures" : [[ "amEmeraldDragon" ]],
+				"creatures" : [[ "amFireDragon" ]],
 				"sounds": {
 					"ambient": ["dwellings/rtrdwl7.wav"]
 				},

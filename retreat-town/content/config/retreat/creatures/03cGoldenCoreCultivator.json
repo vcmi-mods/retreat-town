@@ -1,0 +1,86 @@
+{
+	"amGoldenCoreCultivator":
+	{
+		"name" :
+		{
+			"plural" : "Golden Core Cultivators",
+			"singular" : "Golden Core Cultivator"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 17,
+			 "min" : 12
+		},
+		"faction" : "retreat",
+		"aiValue" : 534,
+		"attack" : 12,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 420
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 6
+		},
+		"shots" : 4, //!!
+		"defense" : 10,
+		"fightValue" : 471,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR223.def",
+			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 0.33 },
+			"map" : "retreat/map/AVW223.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS223.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL223.bmp",
+			"timeBetweenFidgets" : 1,
+		    "missile" :
+			{
+				"attackClimaxFrame" : 7,
+				"projectile": "Phalf.DEF",
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -20
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },
+
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "retreat/s206ATTK",
+			"defend": "retreat/s206DFND",
+			"killed": "retreat/s206KILL",
+			"move": "retreat/s206MOVE",
+			"wince": "retreat/s206WNCE"
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+		"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"defencing" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 40
+			},
+			"disruptingRay" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 20
+			}
+		}
+	}
+}

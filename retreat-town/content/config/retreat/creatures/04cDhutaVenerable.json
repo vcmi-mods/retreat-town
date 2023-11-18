@@ -1,0 +1,76 @@
+{
+	"amDhutaVenerable":
+	{
+		"name" :
+		{
+			"plural" : "Dhuta Venerables",
+			"singular" : "Dhuta Venerable"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 14,
+			 "min" : 10
+		},
+		"faction" : "retreat",
+		"aiValue" : 762,
+		"attack" : 12,
+        "cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			 "max" : 8,
+			 "min" : 6
+		},
+		"shots": 1, //!
+		"defense" : 14,
+		"fightValue" : 644,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR224.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.4 },
+			"map" : "retreat/map/AVW224.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS224.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL224.bmp",
+			"timeBetweenFidgets" : 1,
+		    "missile" :
+			{
+				"attackClimaxFrame" : 6,
+				"projectile": "Phalf.DEF",
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -95,
+					"middleX" : 61,
+					"middleY" : -49,
+					"lowerX" : 28,
+					"lowerY" : -20
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+        },
+		"growth" : 4,
+		"hitPoints" : 60,
+		"level" : 4,
+		"sound" :
+		{       
+            "attack": "retreat/BGLOATTK.wav",
+			"defend": "retreat/BGLODFND.wav",
+			"killed": "retreat/BGLOKILL.wav",
+			"move": "retreat/BGLOMOVE.wav",
+			"wince": "retreat/BGLOWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{              
+            "forgetMe" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 35,
+				"limiters" : [ "SHOOTER_ONLY" ]
+			}
+		}
+	}
+}

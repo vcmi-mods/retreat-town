@@ -1,0 +1,94 @@
+{
+	"amDeerGirl":
+	{
+		"name" :
+		{
+			"plural" : "Deer Girls",
+			"singular" : "Deer Girl"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "retreat",
+		"aiValue" : 797,
+		"attack" : 12,
+		"shots" : 24, //!!!
+		"cost" :
+		{
+			"gold" : 450			
+		},
+		"damage" :
+		{
+			 "max" : 14,
+			 "min" : 10
+		},
+		"defense" : 9,
+		"fightValue" : 691,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR207.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.25 },
+			"map" : "retreat/map/AVW207.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS207.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL207.bmp",
+			"timeBetweenFidgets" : 1,
+		    "missile" :
+			{
+				"attackClimaxFrame" : 4,
+				"projectile": "Phalf.DEF",
+				"offset" :
+				{
+					"upperX" : 60,
+					"upperY" : -80,
+					"middleX" : 60,
+					"middleY" : -80,
+					"lowerX" : 60,
+					"lowerY" : -80
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 3,
+		"hitPoints" : 45,
+		"level" : 5,
+		"upgrades":
+		[
+			"amDeerFairy"
+		],
+		"sound" :
+		{
+			"attack": "retreat/s210ATTK",
+			"defend": "retreat/s210DFND",
+			"killed": "retreat/s210KILL",
+			"move": "retreat/s210MOVE",
+			"wince": "retreat/s210WNCE"
+		},
+		"speed" : 5,
+		"abilities" :
+		{     
+		    "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"castsBerserk" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.berserk",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"amMonkeyLeader":
+	{
+		"name" :
+		{
+			"plural" : "Monkey Leaders",
+			"singular" : "Monkey Leader"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 16
+		},
+		"faction" : "retreat",
+		"aiValue" : 265,
+		"attack" : 7,
+         "cost" :
+		{
+			"gold" : 180
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 6,
+		"fightValue" : 268,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR222.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.33 },
+			"map" : "retreat/map/AVW222.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS222.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL222.bmp",
+			"timeBetweenFidgets" : 1,
+		    "missile" :
+			{
+				"attackClimaxFrame" : 8,
+				"projectile": "Phalf.DEF",
+				"offset" :
+				{
+					"upperX" : 32,
+					"upperY" : -77,
+					"middleX" : 40,
+					"middleY" : -61,
+					"lowerX" : 18,
+					"lowerY" : -55
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+        "shots" : 24,
+		"growth" : 9,
+		"hitPoints" : 18,
+        "level" : 2,
+		"sound" :
+		{
+			"attack": "retreat/s202ATTK",
+			"defend": "retreat/s202DFND",
+			"killed": "retreat/s202KILL",
+			"move": "retreat/s202MOVE",
+            "shoot": "retreat/s202SHOT",
+			"wince": "retreat/s202WNCE"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"SELF_MORALE" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+		       "doubleDamage" :
+			{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+            }	
+		}	
+	}
+}

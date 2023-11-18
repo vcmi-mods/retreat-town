@@ -1,0 +1,60 @@
+{
+	"amHuluVine":
+	{
+		"name" :
+		{
+			"plural" : "Hulu Vines",
+			"singular" : "Hulu Vine"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"faction" : "retreat",
+		"hasDoubleWeek" : true,
+		"aiValue" : 55,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 65
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 1
+		},
+		"defense" : 5,
+		"fightValue" : 108,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR221.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.4 },
+			"map" : "retreat/map/AVW221.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS221.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL221.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 6,
+		"horde" : 10,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "retreat/GRPLATTK.wav",
+			"defend": "retreat/GRPLDFND.wav",
+			"killed": "retreat/GRPLKILL.wav",
+			"move": "retreat/GRPLMOVE.wav",
+			"wince": "retreat/GRPLWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{	
+			"strikeAndReturn" :
+            {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		}
+	}
+}

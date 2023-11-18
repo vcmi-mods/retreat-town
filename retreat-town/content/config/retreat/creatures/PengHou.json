@@ -20,10 +20,10 @@
 		"fightValue" : 916,
 		"graphics" :
 		{
-			"animation" : "retreat/battle/peng hou.def",
-			"map" : "retreat/map/peng hou.def",
-			"iconSmall" : "retreat/iconsSmall/peng hou.bmp",
-			"iconLarge" : "retreat/iconsBig/peng hou.bmp",
+			"animation" : "retreat/battle/zm182npc.def",
+//			"map" : "retreat/map/zm182npc.def",
+			"iconSmall" : "retreat/iconsSmall/pengSmall.bmp",
+			"iconLarge" : "retreat/iconsBig/pengBig.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
@@ -64,10 +64,6 @@
 		"speed" : 5,
 		"abilities" :
 		{
- 		    "canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",

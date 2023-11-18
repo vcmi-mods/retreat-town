@@ -1,12 +1,12 @@
 {
-	"yan" : 
+	"14yan" : 
 	{
 		"class" : "yingYanMaster",
 		"female" : false,
 		"texts" :
 		{
-			"name" : "Yan",
-			"biography" : "Yan is a survivor of the devastated Tu Shan Clan, which was one of the largest clan in land.",
+			"name" : "Tu Shan Yan",
+			"biography" : "Tu Shan Yan is a survivor of the devastated Tu Shan Clan, which was one of the largest clan in land.",
 			"specialty" : 
 			{
 				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[
@@ -40,7 +40,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "waterMagic"
+				"skill" : "airMagic"
 			}
 		],
     

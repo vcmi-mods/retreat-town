@@ -1,0 +1,92 @@
+{
+	"amJiuYing":
+	{
+		"name" :
+		{
+			"plural" : "Jiu Yings",
+			"singular" : "Jiu Ying"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 5
+		},
+		"faction" : "retreat",
+		"aiValue" : 2869,
+		"fightValue" : 2242,
+		"attack" : 16,
+		"defense" : 16,
+		"cost" :
+		{
+			"gold" : 1400
+		},
+		"damage" :
+		{
+			 "max" : 30,
+			 "min" : 25
+		},
+		"speed" : 10,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR226.def",
+			"map" : "retreat/map/AVW226.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS226.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL226.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.33,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "PMAGEX.def",
+				"attackClimaxFrame" : 12,
+				"offset" :
+				{
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -20
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"hitPoints" : 150,
+		"doubleWide" : true,
+        "growth" : 2,
+		"level" : 6,
+//		"shots" : 24,		!!!
+		"sound" :
+		{
+			
+			"attack": "retreat/MIKOATTK.wav",
+			"defend": "retreat/MIKODFND.wav",
+			"killed": "retreat/GISNKILL.wav",
+			"move": "retreat/MIKOMOVE.wav",
+			"shoot": "retreat/GISNSHOT.wav",
+			"wince": "retreat/MIKOWNCE.wav"
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER" //casts 1
+			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"poison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 100,
+				"addInfo" : [0,2]
+			}
+		}
+	}
+}

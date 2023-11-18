@@ -1,0 +1,95 @@
+{
+	"amYingLong":
+	{
+		"name" :
+		{
+			"plural" : "Ying Longs",
+			"singular" : "Ying Long"
+		},
+		"advMapAmount" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"faction" : "retreat",
+		"aiValue" : 20594,
+		"attack" : 30,
+		"cost" :
+		{
+			"gold" : 9000,
+			"gems" : 3
+		},
+		"damage" :
+		{
+			"max" : 70,
+			"min" : 50
+		},
+		"defense" : 35,
+		"fightValue" : 15482,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR198.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.25 },
+			"map" : "retreat/map/AVW198.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS198.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL198.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 500,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "retreat/SCDRATTK.wav",
+			"defend" : "retreat/SCDRDFND.wav",
+			"killed" : "retreat/SCDRKILL.wav",
+			"move"   : "retreat/SCDRMOVE.wav",
+			"wince"  : "retreat/SCDRWNCE.wav"
+                     
+		},
+		"speed" : 19,
+		"abilities" :
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"fireImmunity" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+            },
+			"spellFireWall" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.fireWall",
+				"val" : 50,
+				"addInfo" : 3
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"twohexattackbreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"healer" : 
+			{
+				"type" : "HEALER"
+			},
+			"FEAR" :
+			{
+				"type" : "FEAR"
+			}
+		}
+	}
+}
+
+
