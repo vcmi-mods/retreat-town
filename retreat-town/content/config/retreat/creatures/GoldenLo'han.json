@@ -12,20 +12,20 @@
 			 "min" : 10
 		},
 		"faction" : "retreat",
-		"aiValue" : 1191,
-		"attack" : 12,
+		"aiValue" : 551,
+		"attack" : 10,
 		"hasDoubleWeek" : true,
         "cost" :
 		{
-			"gold" : 375
+			"gold" : 350
 		},
 		"damage" :
 		{
-			 "max" : 9,
+			 "max" : 6,
 			 "min" : 5
 		},
-		"defense" : 9,
-		"fightValue" : 1115,
+		"defense" : 12,
+		"fightValue" : 484,
 		"graphics" :
 		{
 			"animation" : "retreat/battle/maniac.def",
@@ -33,11 +33,26 @@
 			"map" : "retreat/map/maniac.def",
 			"iconSmall" : "retreat/iconsSmall/maniac.bmp",
 			"iconLarge" : "retreat/iconsBig/maniac.bmp",
-			"timeBetweenFidgets" : 1
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "retreat/battle/projectile/SHOT197.def",
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 40,
+					"upperY" : -50,
+					"middleX" : 50,
+					"middleY" : -50,
+					"lowerX" : 20,
+					"lowerY" : -10
+				},
+				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
+			}
         },
 		"growth" : 4,
-		"hitPoints" : 40,
-//		"shots" : 1,
+		"hitPoints" : 50,
+		"shots" : 1,
 		"level" : 4,
 		"sound" :
 		{
@@ -45,22 +60,83 @@
 			"defend": "retreat/BGLODFND.wav",
 			"killed": "retreat/BGLOKILL.wav",
 			"move": "retreat/BGLOMOVE.wav",
+			"shoot": "retreat/BGLOATTK.wav",
 			"wince": "retreat/BGLOWNCE.wav"
 		},
 		"speed" : 7,
 		"abilities" :
 		{
-            "attacksAllAdjacent":
+            "canShoot" :
 			{
-				"type":"ATTACKS_ALL_ADJACENT"
-            },
-            "suck" :
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :	
 			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.forgetfulness",
-				"val" : 35,
-				"limiters" : [ "SHOOTER_ONLY" ]
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"rebirth" : 
+			{
+				"type" : "REBIRTH",
+				"val" : 10
 			}
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MIND_IMMUNITY"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			}
+		]
 	}
 }

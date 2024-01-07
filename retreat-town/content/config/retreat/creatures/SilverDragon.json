@@ -9,23 +9,23 @@
 		"advMapAmount" :
 		{
 			"max" : 5,
-			"min" : 3
+			"min" : 2
 		},
 		"faction" : "retreat",
-		"aiValue" : 16750,
-		"attack" : 30,
+		"aiValue" : 25000,
+		"attack" : 32,
 		"cost" :
 		{
-			"gold" : 6000,
-			"gems" : 4
+			"gold" : 7500,
+			"gems" : 3
 		},
 		"damage" :
 		{
-			"max" : 60,
-			"min" : 50
+			"max" : 75,
+			"min" : 60
 		},
-		"defense" : 35,
-		"fightValue" : 16750,
+		"defense" : 40,
+		"fightValue" : 19000,
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR211.def",
@@ -37,8 +37,8 @@
 		},
 		"doubleWide" : true,
 		"growth" : 1,
-		"hitPoints" : 400,
-		"level" : 7,
+		"hitPoints" : 600,
+		"level" : 8,
 		"sound" :
 		{
 			"attack" : "retreat/SCDRATTK.wav",
@@ -59,36 +59,119 @@
 			{
 				"type" : "FLYING"
 			},
-			"fireImmunity" :
+			"airImmunity" :
 			{
-				"type" : "FIRE_IMMUNITY",
-				"subtype" : 0
+				"subtype" : "air",
+				"type" : "SPELL_SCHOOL_IMMUNITY"
             },
-			"spellFireWall" :
+			"king1" :
 			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.fireWall",
-				"val" : 50,
-				"addInfo" : 3
-			},
-			"spellpower" :
-			{
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
 			},
 			"twohexattackbreath" :
 			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
-			},
-			"healer" : 
-			{
-				"type" : "HEALER"
-			},
-			"FEAR" :
-			{
-				"type" : "FEAR"
 			}
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, true, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.earth"
+				},
+				"values" : [ true, true, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
+				},
+				"values" : [ true, true, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.fire"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.air"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			}
+		]
 	}
 }
 

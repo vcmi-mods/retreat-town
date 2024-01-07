@@ -12,7 +12,7 @@
 			 "min" : 5
 		},
 		"faction" : "retreat",
-		"aiValue" : 1713,
+		"aiValue" : 1504,
 		"attack" : 13,
 		"cost" :
 		{
@@ -20,11 +20,11 @@
 		},
 		"damage" :
 		{
-			 "max" : 20,
-			 "min" : 16
+			 "max" : 25,
+			 "min" : 15
 		},
 		"defense" : 13,
-		"fightValue" : 1479,
+		"fightValue" : 1269,
 		"graphics" :
 		{
 			"animation" : "retreat/battle/cr210alt",
@@ -52,27 +52,80 @@
 		},
 		"speed" : 8,
 		"abilities" :
-		{     
-		    "fearless" :
+		{
+			"castBerserk" :
 			{
-				"type" : "FEARLESS"
-			},
-			"castsBerserk" :
-			{
-				"type" : "SPELLCASTER",
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.berserk",
-				"val" : 2
-			},
-			"castsCount" :
+				"val" : 50,
+				"addInfo" : 1002
+			}			
+		},
+		"stackExperience" :
+ 
+		[
 			{
-				"type" : "CASTS",
-				"val" : 3
-			},
-			"castLength" :
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
 			{
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 3
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MORALE",
+				"val" : 1,				"valueType" : "INDEPENDENT_MAX"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
 			}
-		}
+		]
 	}
 }

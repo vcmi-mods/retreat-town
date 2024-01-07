@@ -8,24 +8,24 @@
 		},
 		"advMapAmount" :
 		{
-			"max" : 25,
-			"min" : 16
+			"max" : 20,
+			"min" : 10
 		},
 		"faction" : "retreat",
-		"aiValue" : 200,
-		"attack" : 6,
+		"aiValue" : 548,
+		"attack" : 9,
 		"hasDoubleWeek" : true,
          "cost" :
 		{
-			"gold" : 150
+			"gold" : 350
 		},
 		"damage" :
 		{
-			"max" : 4,
-			"min" : 3
+			"max" : 9,
+			"min" : 9
 		},
-		"defense" : 6,
-		"fightValue" : 200,
+		"defense" : 9,
+		"fightValue" : 484,
 		"horde" : 6,
 		"graphics" :
 		{
@@ -52,9 +52,9 @@
 			}
 		},
                 "shots" : 24,
-		"growth" : 9,
-		"hitPoints" : 16,
-        "level" : 2,
+		"growth" : 4,
+		"hitPoints" : 35,
+        "level" : 4,
 		"sound" :
 		{
 			"attack": "retreat/MNKYATTK.wav",
@@ -64,7 +64,7 @@
                         "shoot": "retreat/MNKYSHOT.wav",
 			"wince": "retreat/MNKYWNCE.wav"
 		},
-		"speed" : 8,
+		"speed" : 7,
 		"abilities" :
 		{
 			"canShoot" :
@@ -73,12 +73,57 @@
 			},
 			"SELF_MORALE" :
 			{
-				"type" : "SELF_MORALE"
+				"type" : "MORALE",
+				"val" : 1,				"valueType" : "INDEPENDENT_MAX"
 			},
 		       "noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
             }	
-		}	
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]	
 	}
 }

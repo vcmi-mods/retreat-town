@@ -7,7 +7,7 @@
 	"modType" : "Town",
 	"changelog" :
     {
-		"0.5.8" : [ "Adjusted Commanders stats" ],
+		"0.5.8" : [ "Added the creatures' stackExp, fixed the commander and other bugs" ],
 		"0.5.7" : [ "Improved chinese translation", "More suitable sounds", "Few graphical minor improvements" ],
 		"0.5.6" : [ "Fixed missing graphic for 7th lvl dwelling in townscreen" ],
 		"0.5.5" : [ "New portraits", "Improved french translation" ],

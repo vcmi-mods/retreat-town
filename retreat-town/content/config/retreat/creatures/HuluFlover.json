@@ -12,11 +12,11 @@
 			 "min" : 20
 		},
 		"faction" : "retreat",
-		"aiValue" : 84,
+		"aiValue" : 75,
 		"attack" : 5,
 		"cost" :
 		{
-			"gold" : 60
+			"gold" : 50
 		},
 		"damage" :
 		{
@@ -24,7 +24,7 @@
 			 "min" : 1
 		},
 		"defense" : 3,
-		"fightValue" : 94,
+		"fightValue" : 72,
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR200.def",
@@ -36,7 +36,7 @@
 		},
 	
 		"growth" : 14,
-		"hitPoints" : 6,
+		"hitPoints" : 5,
 		"horde" : 10,
 		"level" : 1,
 		"sound" :
@@ -50,10 +50,78 @@
 		"speed" : 5,
 		"abilities" :
 		{	
-			"strikeAndReturn" :
-            {
-				"type" : "RETURN_AFTER_STRIKE"
+			"deathStrike" :
+			{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 14
 			}
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.poison",
+					"addInfo" : [3, 2]
+				},
+				"values" : [ 0, 0, 0, 0, 5, 5, 5, 10, 10, 15 ]				
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			}
+		]
 	}
 }

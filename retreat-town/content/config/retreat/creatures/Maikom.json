@@ -12,10 +12,10 @@
 			 "min" : 8
 		},
 		"faction" : "retreat",
-		"aiValue" : 1086,
-		"fightValue" : 984,
+		"aiValue" : 908,
+		"fightValue" : 784,
 		"attack" : 13,
-		"defense" : 10,
+		"defense" : 9,
 		"cost" :
 		{
 			"gold" : 550
@@ -25,7 +25,7 @@
 			 "max" : 14,
 			 "min" : 10
 		},
-		"speed" : 7,
+		"speed" : 8,
 		"graphics" :
 		{
 			"animation" : "retreat/battle/Maikom.def",
@@ -79,14 +79,73 @@
 			"no melee penalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
-			},
-			"poison" :
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
-				"val" : 100,
-				"addInfo" : [0,2]
 			}
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
 	}
 }

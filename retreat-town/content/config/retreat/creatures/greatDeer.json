@@ -12,7 +12,7 @@
 			 "min" : 5
 		},
 		"faction" : "retreat",
-		"aiValue" : 2057,
+		"aiValue" : 1802,
 		"attack" : 15,
 		"cost" :
 		{
@@ -20,11 +20,11 @@
 		},
 		"damage" :
 		{
-			 "max" : 20,
-			 "min" : 16
+			 "max" : 25,
+			 "min" : 20
 		},
 		"defense" : 15,
-		"fightValue" : 1740,
+		"fightValue" : 1508,
 		"graphics" :
 		{
 			"animation" : "retreat/battle/cr211alt",
@@ -46,34 +46,88 @@
 			"move": "retreat/s210MOVE",
 			"wince": "retreat/s210WNCE"
 		},
-		"speed" : 10,
+		"speed" : 9,
 		"abilities" :
 		{
-			"fearless" :
-            {
-				"type" : "FEARLESS"
-			},
-			"castsBerserk" :
+			"castBerserk" :
 			{
-				"type" : "SPELLCASTER",
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.berserk",
-				"val" : 2
-			},
-			"castsCount" :
-			{
-				"type" : "CASTS",
-				"val" : 3
-			},
-			"castLength" :
-			{
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 3
-			},
-			"spellResistAura" :
-			{
-				"type" : "SPELL_RESISTANCE_AURA",
-				"val" : 30
+				"val" : 50,
+				"addInfo" : 1002
 			}			
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"//shield effect
+				},
+				"values" : [ 10, 15, 15, 20, 20, 25, 25, 30, 30, 35]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
 	}
 }

@@ -9,10 +9,10 @@
 		"advMapAmount" :
 		{
 			 "max" : 30,
-			 "min" : 25
+			 "min" : 16
 		},
 		"faction" : "retreat",
-		"aiValue" : 143,
+		"aiValue" : 121,
 		"attack" : 5,
 		"hasDoubleWeek" : true,
         "cost" :
@@ -25,7 +25,7 @@
 			 "min" : 2
 		},
 		"defense" : 4,
-		"fightValue" : 153,
+		"fightValue" : 114,
 		"horde" : 6,
 		"graphics" :
 		{
@@ -75,12 +75,74 @@
 			{
 				"type" : "SHOOTER"
 			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
 			"SELF_MORALE" :
 			{
 				"type" : "MORALE",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX"
 			}
-		}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+			}
+		]
 	}
 }
