@@ -19,7 +19,7 @@
     },
     "chinese" : {
 		"name" : "桃源",
-		"description" : "桃源",
+		"description" : "桃源是一个以中国风为设计要素的种族，取材自中国的神话传说和后世的玄幻小说，有着独有的国风韵味。",
 		"translations" : [
 			"translation/retreat/chinese.json"
 		]
