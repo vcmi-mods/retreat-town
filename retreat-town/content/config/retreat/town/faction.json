@@ -54,7 +54,7 @@
 				[ "amFireDragon", "amJadeDragon", "amYingLong" ]
 			],
 			"horde" : [ 0 , 1],
-			"moatAbility" : "retreatMoat",
+			"moatAbility" : "castleMoat",
 			"mageGuild" : 5,
 			"primaryResource" : "gems",
 			"warMachine" : "atGoldenLion",

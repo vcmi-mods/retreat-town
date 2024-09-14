@@ -57,15 +57,15 @@
 		[
 			"amSnakeBearer"
 		],
-//		"shots" : 24, !!!
+		"shots" : 24,
 		"sound" :
 		{
-			"attack": "retreat/GISNATTK.wav",
-			"defend": "retreat/GISNDFND.wav",
-			"killed": "retreat/GISNKILL.wav",
-			"move": "retreat/GISNMOVE.wav",
-			"shoot": "retreat/GISNSHOT.wav",
-			"wince": "retreat/GISNWNCE.wav"                  
+			"attack": "retreat/S209ATTK.wav",
+			"defend": "retreat/S209DFND.wav",
+			"killed": "retreat/S209KILL.wav",
+			"move":   "retreat/S209MOVE.wav",
+			"shoot":   "retreat/S209SHOT.wav",
+			"wince":  "retreat/S209WNCE.wav"
 		},
 		"speed" : 7,
 		"abilities" :

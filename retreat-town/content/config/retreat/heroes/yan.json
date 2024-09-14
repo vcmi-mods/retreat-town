@@ -9,7 +9,7 @@
 			"biography" : "Tu Shan Yan is a survivor of the devastated Tu Shan Clan, which was one of the largest clan in land.",
 			"specialty" : 
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}

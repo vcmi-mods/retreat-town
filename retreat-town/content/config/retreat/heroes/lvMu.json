@@ -9,7 +9,7 @@
 			"biography" : "Lv Mu is a giant snake and possesses the ability to control the mind of all breeds of snakes.",
 			"specialty" : 
 			{
-				"description" : "{Snake Graspers}\r\n\r\nIncreases Speed of any Snake Graspers, Snake Bearers and Jiu Yings by 1 and their Attack and Defense skills by 5% for 6 levels (rounded up).",
+				"description" : "Increases Speed of any Snake Graspers, Snake Bearers and Jiu Yings by 1 and their Attack and Defense skills by 5% for 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Snake Graspers",
 				"name" : "Snake Graspers"
 			}

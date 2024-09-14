@@ -9,7 +9,7 @@
 			"biography" : "Fu Xi Sheng is a descendant of the Fu Xi Clan. He is an expert at Bagua and Fortune Telling.",
 			"specialty" : 
 			{
-				"description" : "{Earth Magic}\r\n\r\nStarts with Expert Earth Magic.",
+				"description" : "Starts with Expert Earth Magic.",
 				"tooltip" : "Skill Bonus: Earth Magic",
 				"name" : "Earth Magic"
 			}

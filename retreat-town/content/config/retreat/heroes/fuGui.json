@@ -9,7 +9,7 @@
 			"biography" : "Sheng Fu Gui is born a successful merchant and entrepreneur. His capability and personality are both highly recognised by the folks.",
 			"specialty" : 
 			{
-				"description" : "{Estates}\r\n\r\nStarts with Advanced Estates.",
+				"description" : "Starts with Advanced Estates.",
 				"tooltip" : "Skill Bonus: Estates",
 				"name" : "Estates"
 			}

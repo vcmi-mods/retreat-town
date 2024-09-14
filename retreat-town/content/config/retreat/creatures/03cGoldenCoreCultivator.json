@@ -24,7 +24,7 @@
 			 "max" : 10,
 			 "min" : 6
 		},
-		"shots" : 4, //!!
+		"shots" : 4,
 		"defense" : 10,
 		"fightValue" : 471,
 		"graphics" :
@@ -57,29 +57,38 @@
 		"level" : 3,
 		"sound" :
 		{
-			"attack": "retreat/s206ATTK",
-			"defend": "retreat/s206DFND",
-			"killed": "retreat/s206KILL",
-			"move": "retreat/s206MOVE",
-			"wince": "retreat/s206WNCE"
+			"attack": "retreat/S201ATTK.wav",
+			"defend": "retreat/S201DFND.wav",
+			"killed": "retreat/S201KILL.wav",
+			"move":   "retreat/S201MOVE.wav",
+			"shoot":   "retreat/S201SHOT.wav",
+			"wince":  "retreat/S201WNCE.wav"
 		},
 		"speed" : 12,
 		"abilities" :
 		{
-		"canFly" : 
+			"canFly" : 
 			{
 				"type" : "FLYING"
+			},
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
 			},
 			"defencing" :
 			{
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 40
 			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
 			"disruptingRay" :
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "spell.disruptingRay",
-				"val" : 20
+				"val" : 60
 			}
 		}
 	}

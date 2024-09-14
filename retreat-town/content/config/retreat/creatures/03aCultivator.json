@@ -44,14 +44,15 @@
 		],
 		"sound" :
 		{
-			"attack": "retreat/s206ATTK",
-			"defend": "retreat/s206DFND",
-			"killed": "retreat/s206KILL",
-			"move": "retreat/s206MOVE",
-			"wince": "retreat/s206WNCE"
+			"attack": "retreat/S203ATTK.wav",
+			"defend": "retreat/S203DFND.wav",
+			"killed": "retreat/S204KILL.wav",
+			"move":   "retreat/S203MOVE.wav",
+			"shoot":   "retreat/S204SHOT.wav",
+			"wince":  "retreat/S204WNCE.wav"
 		},
 		"speed" : 6,
-		"abilities": //nie strzela
+		"abilities":
 		{
 			"defencing" :
 			{

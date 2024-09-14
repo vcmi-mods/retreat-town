@@ -59,11 +59,12 @@
 		],
 		"sound" :
 		{       
-            "attack": "retreat/BGLOATTK.wav",
-			"defend": "retreat/BGLODFND.wav",
-			"killed": "retreat/BGLOKILL.wav",
-			"move": "retreat/BGLOMOVE.wav",
-			"wince": "retreat/BGLOWNCE.wav"
+			"attack": "retreat/S205ATTK.wav",
+			"defend": "retreat/S205DFND.wav",
+			"killed": "retreat/S205KILL.wav",
+			"move":   "retreat/S205MOVE.wav",
+			"shoot":  "retreat/S205SHOT.wav",
+			"wince":  "retreat/S205WNCE.wav"
 		},
 		"speed" : 7,
 		"abilities" :

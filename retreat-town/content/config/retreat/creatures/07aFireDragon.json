@@ -45,11 +45,11 @@
 		],
 		"sound" :
 		{
-			"attack" : "retreat/SCDRATTK.wav",
-			"defend" : "retreat/SCDRDFND.wav",
-			"killed" : "retreat/SCDRKILL.wav",
-			"move"   : "retreat/SCDRMOVE.wav",
-			"wince"  : "retreat/SCDRWNCE.wav"
+			"attack": "retreat/S211ATTK.wav",
+			"defend": "retreat/S211DFND.wav",
+			"killed": "retreat/S211KILL.wav",
+			"move":   "retreat/S211MOVE.wav",
+			"wince":  "retreat/S211WNCE.wav"
 		},
 		"speed" : 12,
 		"abilities" :
@@ -64,8 +64,8 @@
 			},
 			"fireImmunity" :
 			{
-				"type" : "FIRE_IMMUNITY",
-				"subtype" : 0
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
             },
 			"spellFireWall" :
 			{

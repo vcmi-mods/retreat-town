@@ -50,8 +50,8 @@
 		},
 		"doubleWide" : false,
 		"growth" : 1,
-		"hitPoints" : 60,
-        "shots" : 24,
+		"hitPoints" : 40,
+//        "shots" : 24,
 		"sound" :
 		{
 			"attack": "retreat/GRPLATTK.wav",

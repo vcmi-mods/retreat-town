@@ -9,7 +9,7 @@
 			"biography" : "Xiao Qing is a flying snake that has gained human form through hundreds of years of Taoist practice.",
 			"specialty" : 
 			{
-				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill percentage.",
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"tooltip" : "Skill Bonus: Logistics",
 				"name" : "Logistics"
 			}
@@ -41,7 +41,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"logistics" : {
-					"subtype" : 0,
+					"subtype" : "heroMovementLand",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MOVEMENT",
 					"val" : 5,

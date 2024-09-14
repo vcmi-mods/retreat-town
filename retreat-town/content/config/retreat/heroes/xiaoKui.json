@@ -9,7 +9,7 @@
 			"biography" : "Xiao Kui is a plant that has gained the human form.  She is able to devour monsters to grow herself. As she grows, buds sprout out of her body. Once the buds mature and fall off her body, they become her familiars.",
 			"specialty" : 
 			{
-				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
+				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Skill Bonus: Offence",
 				"name" : "Offence"
 			}
@@ -41,7 +41,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {
-					"subtype" : 0,
+					"subtype" : "damageTypeMelee",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "PERCENTAGE_DAMAGE_BOOST",
 					"val" : 5,

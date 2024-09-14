@@ -14,7 +14,7 @@
 		"faction" : "retreat",
 		"aiValue" : 908,
 		"attack" : 13,
-		"shots" : 24, //!!!
+		"shots" : 0, //!!!
 		"cost" :
 		{
 			"gold" : 550
@@ -60,11 +60,12 @@
 		],
 		"sound" :
 		{
-			"attack": "retreat/s210ATTK",
-			"defend": "retreat/s210DFND",
-			"killed": "retreat/s210KILL",
-			"move": "retreat/s210MOVE",
-			"wince": "retreat/s210WNCE"
+			"attack": "retreat/S207ATTK.wav",
+			"defend": "retreat/S207DFND.wav",
+			"killed": "retreat/S207KILL.wav",
+			"move":   "retreat/S207MOVE.wav",
+			"shoot":  "retreat/S207SHOT.wav",
+			"wince":  "retreat/S207WNCE.wav"
 		},
 		"speed" : 8,
 		"abilities" :

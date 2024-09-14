@@ -9,7 +9,7 @@
 			"biography" : "Before becoming a monk, Ding Chan was Meng Die's husband. One night, he received a heavenly revelation and soon realised his fate.",
 			"specialty" : 
 			{
-				"description" : "{Dispell}\r\n\r\nCasts Dispell spell with expert effects but not expert range.",
+				"description" : "Casts Dispell spell with expert effects but not expert range.",
 				"tooltip" : "Spell Bonus: Dispel",
 				"name" : "Dispel"
 			}

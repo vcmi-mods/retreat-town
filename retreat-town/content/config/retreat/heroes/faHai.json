@@ -9,7 +9,7 @@
 			"biography" : "Fa Hai is a pioneer in practicing exorcism. He believes that the souls should enter the afterworld after the death of the bodies.",
 			"specialty" : 
 			{
-				"description" : "{Dhuta Walkers}\r\n\r\nIncreases Speed of any Dhuta Walkers, Dhuta Walkers or Dhuta Venerables by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
+				"description" : "Increases Speed of any Dhuta Walkers, Dhuta Walkers or Dhuta Venerables by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Dhuta Seekers",
 				"name" : "Dhuta Walkers"
 			}

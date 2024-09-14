@@ -42,18 +42,27 @@
 		"level" : 1,
 		"sound" :
 		{
-			"attack": "retreat/GRPLATTK.wav",
-			"defend": "retreat/GRPLDFND.wav",
-			"killed": "retreat/GRPLKILL.wav",
-			"move": "retreat/GRPLMOVE.wav",
-			"wince": "retreat/GRPLWNCE.wav"
+			"attack": "retreat/S199ATTK.wav",
+			"defend": "retreat/S199DFND.wav",
+			"killed": "retreat/S199KILL.wav",
+			"move":   "retreat/S199MOVE.wav",
+			"shoot":   "retreat/S199SHOT.wav",
+			"wince":  "retreat/S199WNCE.wav"
 		},
 		"speed" : 6,
 		"abilities" :
 		{	
-			"strikeAndReturn" :
-            {
-				"type" : "RETURN_AFTER_STRIKE"
+			"binds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 80
+			},
+			"slowImmunity" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow",
+				"addInfo" : 1
 			}
 		}
 	}

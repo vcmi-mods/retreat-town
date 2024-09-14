@@ -59,12 +59,12 @@
 		],
 		"sound" :
 		{
-			"attack": "retreat/s202ATTK",
-			"defend": "retreat/s202DFND",
-			"killed": "retreat/s202KILL",
-			"move": "retreat/s202MOVE",
-            "shoot": "retreat/s202SHOT",
-			"wince": "retreat/s202WNCE"
+			"attack": "retreat/S201ATTK.wav",
+			"defend": "retreat/S201DFND.wav",
+			"killed": "retreat/S201KILL.wav",
+			"move":   "retreat/S201MOVE.wav",
+			"shoot":   "retreat/S201SHOT.wav",
+			"wince":  "retreat/S201WNCE.wav"
 		},
 		"speed" : 5,
 	    "abilities" :
@@ -73,11 +73,10 @@
 			{
 				"type" : "SHOOTER"
 			},
-			"SELF_MORALE" :
+			"limitedShoot" :
 			{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"type" : "LIMITED_SHOOTING_RANGE",
+				"val" : 8
 			}
 		}
 	}

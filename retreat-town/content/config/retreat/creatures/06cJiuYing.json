@@ -59,22 +59,21 @@
 		"doubleWide" : true,
         "growth" : 2,
 		"level" : 6,
-//		"shots" : 24,		!!!
+		"shots" : 24,
 		"sound" :
 		{
-			
-			"attack": "retreat/MIKOATTK.wav",
-			"defend": "retreat/MIKODFND.wav",
-			"killed": "retreat/GISNKILL.wav",
-			"move": "retreat/MIKOMOVE.wav",
-			"shoot": "retreat/GISNSHOT.wav",
-			"wince": "retreat/MIKOWNCE.wav"
+			"attack": "retreat/S209ATTK.wav",
+			"defend": "retreat/S209DFND.wav",
+			"killed": "retreat/S209KILL.wav",
+			"move":   "retreat/S209MOVE.wav",
+			"shoot":  "retreat/S209SHOT.wav",
+			"wince":  "retreat/S209WNCE.wav"
 		},
 		"abilities" :
 		{
 			"canShoot" :
 			{
-				"type" : "SHOOTER" //casts 1
+				"type" : "SHOOTER"
 			},
 			"no melee penalty" :
 			{
