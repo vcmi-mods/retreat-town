@@ -3,10 +3,11 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.8.3",
+	"version" : "0.8.4",
 	"modType" : "Town",
 	"changelog" :
     {
+		"0.8.4" : [ "Fix Grail not to produce gold" ],
 		"0.8.3" : [ "Update to vcmi-1.6 format" ],
 		"0.8.2" : [ "Polish translation by FallainBlack" ],
 		"0.8.0" : [ "Lord Hawk's town balance" ],

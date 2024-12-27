@@ -300,6 +300,7 @@
 					"description" : "The Gate of Ascension increases weekly creature generation by 50 percent and adds 5000 gold per day. Besides during siege all enemy shooters loose 50 percent of their arrows, fliers are 35 percent slower and casters have one spell less to cast.",
 					"name" : "Gate of Ascension",
 					"id" : 26,
+					"produce": { "gold": 5000 },
 					"bonuses": [
 						{ 
 							"type": "SHOTS", 
