@@ -9,7 +9,7 @@
 			"biography" : "Wang Quan is a master of the sword and has a high position in the Taoist Alliance. Few have seen her using a sword.",
 			"specialty" : 
 			{
-				"description" : "Increases Ammo Cart health by 50%.Ballista reduce attacked unit defense. Increases artillery skill by 5% per level. Catapult always deal maximum damage and shot twice.",
+				"description" : "Increases Ammo Cart health by 50%. Ballista reduce attacked unit defense. Increases artillery skill by 5% per level. Catapult always deal maximum damage and shot twice.",
 				"tooltip" : "Creature Bonus: War Machine", //additional ammo cart in battles
 				"name" : "War Machine"
 			}
@@ -23,7 +23,7 @@
 		},
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "ammoCart", "min" : 1, "max" : 1 },
 			{ "creature" : "ballista", "min" : 1, "max" : 1 }
 		],
