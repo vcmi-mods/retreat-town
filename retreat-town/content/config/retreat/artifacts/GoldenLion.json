@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "retreat/iconsSmall/lion44.bmp",
-			"map"  : "retreat/map/lionMap.def"
+			"map"  : "retreat/map/lionMap.def",
+			"scenarioBonus" : "retreat/scenarioBonuses/bonusBlank.png"
 		}
 	}
 }

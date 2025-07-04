@@ -86,13 +86,23 @@
 			},
 			"healer" : 
 			{
-				"type" : "HEALER"
-,
+				"type" : "HEALER",
 				"subtype" : "spell.firstAid"
 			},
-			"FEAR" :
+			"fearful" :
 			{
-				"type" : "FEAR"
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "LIVING" ]
+					}
+				]
 			}
 		}
 	}
