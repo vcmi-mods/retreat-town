@@ -82,7 +82,9 @@
 			{
 				"type" : "MORALE",
 				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "{Positive morale}\nMonkey's morale cannot be decreased below +1",
+				"icon" : "retreat/icons/bonuses/e_minot.png"
 			}	
 		}	
 	}

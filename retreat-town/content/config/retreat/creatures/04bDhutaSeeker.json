@@ -73,9 +73,9 @@
             "forgetMe" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.forgetfulness",
+				"subtype" : "forgetfulness",
 				"val" : 35,
-				"limiters" : [ "SHOOTER_ONLY" ]
+				"addInfo" : [ 1, 0 ]
 			}
 ,	"defencing" :
 			{

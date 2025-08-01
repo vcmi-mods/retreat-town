@@ -51,7 +51,8 @@
 					[
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"parameters" : ["ammoCart", false]
+							"creature" : "ammoCart",
+							"includeUpgrades" : false
 						}
 					]
 				},
@@ -63,16 +64,17 @@
 					"addInfo": [3, 0],
 					"limiters": 
 					[
-						{
+						{	
 							"type": "CREATURE_TYPE_LIMITER",
-							"parameters" : ["ballista", false]
+							"creature" : "ballista",
+							"includeUpgrades" : false
 						}
 					]
 				},			
 				"ballistaAttacks": 
 				{
 					"type": "HERO_GRANTS_ATTACKS",
-					"subtype": "creature.ballista",
+					"subtype": "ballista",
 					"val": 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"targetSourceType" : "SECONDARY_SKILL",
@@ -81,7 +83,7 @@
 				"ballistaDamageChance": 
 				{
 					"type": "BONUS_DAMAGE_CHANCE",
-					"subtype": "creature.ballista",
+					"subtype": "ballista",
 					"val": 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"targetSourceType" : "SECONDARY_SKILL",
@@ -90,7 +92,7 @@
 				"ballistaDamagePercentage": 
 				{
 					"type": "BONUS_DAMAGE_PERCENTAGE",
-					"subtype": "creature.ballista",
+					"subtype": "ballista",
 					"val": 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"targetSourceType" : "SECONDARY_SKILL",
@@ -98,7 +100,7 @@
 				},
 				"catapultShotEffect":
 				{
-					"subtype" : "spell.catapultShot",
+					"subtype" : "catapultShot",
 					"type" : "CATAPULT_EXTRA_SHOTS",
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 3

@@ -75,7 +75,7 @@
 			"spellFireWall" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.fireWall",
+				"subtype" : "fireWall",
 				"val" : 50,
 				"addInfo" : [3, 2]
 			},
@@ -90,9 +90,8 @@
 			},
 			"healer" : 
 			{
-				"type" : "HEALER"
-,
-				"subtype" : "spell.firstAid"
+				"type" : "HEALER",
+				"subtype" : "firstAid"
 			}
 		}
 	}

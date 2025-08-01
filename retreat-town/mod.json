@@ -3,7 +3,7 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.8.6",
+	"version" : "0.8.7",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
     {
+		"0.8.7" : [ "Added few ability icons" ],
 		"0.8.6" : [ "Update to vcmi-1.7 format" ],
 		"0.8.5" : [ "Changed Wang Quan specialy" ],
 		"0.8.4" : [ "Fix Grail not to produce gold" ],

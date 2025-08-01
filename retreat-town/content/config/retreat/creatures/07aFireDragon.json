@@ -75,7 +75,7 @@
 			"spellFireWall" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.fireWall",
+				"subtype" : "fireWall",
 				"val" : 50,
 				"addInfo" : 3
 			},

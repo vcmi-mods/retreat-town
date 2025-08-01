@@ -71,7 +71,7 @@
 			"spellFireWall" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.fireWall",
+				"subtype" : "fireWall",
 				"val" : 50,
 				"addInfo" : [3, 2]
 			},
@@ -87,22 +87,24 @@
 			"healer" : 
 			{
 				"type" : "HEALER",
-				"subtype" : "spell.firstAid"
+				"subtype" : "firstAid"
 			},
-			"fearful" :
-			{
+			"fearful" : {
 				"type" : "FEARFUL",
 				"val" : 10,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"description" : "PLACEHOLDER",
-				"limiters" : [ 
-					"OPPOSITE_SIDE", 
+				"limiters" : [
+					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "LIVING" ]
+						"parameters" : [
+							"LIVING"
+						]
 					}
-				]
+				],
+				"description" : "{Fearsome}\nEnemy units have a 10% chance of freezing in fear",
+				"icon" : "retreat/icons/bonuses/e_fear.png"
 			}
 		}
 	}

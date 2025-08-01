@@ -83,7 +83,7 @@
 			"disruptingRay" :
 			{
 				"type" : "SPELL_BEFORE_ATTACK",
-				"subtype" : "spell.disruptingRay",
+				"subtype" : "disruptingRay",
 				"val" : 60
 			}
 		}

@@ -59,7 +59,7 @@
 			"binds" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.bind",
+				"subtype" : "bind",
 				"val" : 50
 			}
 		}

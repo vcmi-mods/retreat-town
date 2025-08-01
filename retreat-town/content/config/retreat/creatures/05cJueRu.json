@@ -66,17 +66,17 @@
 		"speed" : 9,
 		"abilities" :
 		{
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"description" : "PLACEHOLDER",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Fearless}\nImmune to Fear ability",
+				"icon" : "retreat/icons/bonuses/e_fearl.png"
 			},
 			"castsBerserk" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.berserk",
+				"subtype" : "berserk",
 				"val" : 2
 			},
 			"castsCount" :
@@ -92,7 +92,7 @@
 			"spellResistAura" :
 			{
 				"type" : "SPELL_RESISTANCE_AURA",
-				"val" : 30
+				"val" : 50
 			}			
 		}
 	}

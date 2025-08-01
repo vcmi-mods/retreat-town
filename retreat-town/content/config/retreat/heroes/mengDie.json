@@ -47,7 +47,7 @@
 			"bonuses": {
 				"sorrow": {
 					"addInfo" : 0,
-					"subtype" : "spell.sorrow",
+					"subtype" : "sorrow",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

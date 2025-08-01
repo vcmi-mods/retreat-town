@@ -15,7 +15,7 @@
 						"ore" : 5,
 						"gold" : 2000
 					},
-					"id" : 0
+					
 				},
 				"mageGuild2" :
 				{
@@ -30,9 +30,7 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageGuild1"
+					}
 				},
 				"mageGuild3" :
 				{
@@ -47,9 +45,7 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
 				"mageGuild4" : 
 				{
@@ -64,9 +60,7 @@
 						"crystal" : 8,
 						"gems" : 8,
 						"gold" : 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" :
 				{
@@ -81,9 +75,7 @@
 						"crystal" : 10,
 						"gems" : 10,
 						"gold" : 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" :
 				{
@@ -93,8 +85,8 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
+					
 				},
 				"shipyard" :
 				{
@@ -104,8 +96,8 @@
 					{
 						"wood" : 20,
 						"gold" : 2000
-					},
-					"id" : 6
+					}
+					
 				},
 				"fort" :
 				{
@@ -116,8 +108,8 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
+					
 				},
 				"citadel" :
 				{
@@ -127,9 +119,7 @@
 					{
 						"ore" : 5,
 						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" :
 				{
@@ -140,16 +130,12 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" :
 				{
@@ -158,10 +144,7 @@
 					"cost" :
 					{
 						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
+					}
 				},
 				"cityHall" :
 				{
@@ -170,10 +153,7 @@
 					"cost" :
 					{
 						"gold" : 5000
-					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"id" : 12,
-					"upgrades" : "townHall"
+					}
 				},
 				"capitol" :
 				{
@@ -182,22 +162,18 @@
 					"cost" :
 					{
 						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
+					}
 				},
 				"marketplace" :
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
+					
 				},
 				"resourceSilo" :
 				{
@@ -208,9 +184,8 @@
 					{
 						"ore" : 5,
 						"gold" : 5000
-					},
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					}
+					
 				},
 				"blacksmith" :
 				{
@@ -221,8 +196,8 @@
 					{
 						"wood" : 5,
 						"gold" : 1000
-					},
-					"id" : 16
+					}
+					
 				},
 				"horde1" :
 				{
@@ -231,7 +206,7 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
+					
 					"upgrades" : "dwellingLvl1"
 				},
 				"horde1Upgr" :
@@ -241,10 +216,9 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 19,
+					
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [ "horde1" ],
-					"mode" : "auto"
+					"requires" : [ "horde1" ]
 				},
 				"horde1Upgr2" :
 				{
@@ -253,17 +227,16 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 22,
+					
 					"upgrades" : "dwellingUp2Lvl1",
-					"requires" : [ "horde1Upgr" ],
-					"mode" : "auto"
+					"requires" : [ "horde1Upgr" ]
 				},
 				"ship" :
 				{
 					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
+					"description" : "The Shipyard allows you to purchase ships."
 
-					"id" : 20
+					
 				},
 				"special1" :
 				{
@@ -273,8 +246,7 @@
 					"cost" : {
 						"gold" : 10000
 					},
-					"requires" : [ "marketplace" ],
-//					"id" : 17
+					"requires" : [ "marketplace" ]
 				},
 				"special2" :
 				{
@@ -293,14 +265,12 @@
 						]
 					},
 					"requires" : [ "mageGuild1" ]
-//					"id" : 21
 				},
 				"grail" :
 				{
 					"description" : "The Gate of Ascension increases weekly creature generation by 50 percent and adds 5000 gold per day. Besides during siege all enemy shooters loose 50 percent of their arrows, fliers are 35 percent slower and casters have one spell less to cast.",
 					"name" : "Gate of Ascension",
-					"id" : 26,
-					"produce": { "gold": 5000 },
+
 					"bonuses": [
 						{ 
 							"type": "SHOTS", 
@@ -321,7 +291,7 @@
 								"OPPOSITE_SIDE",
 								{
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [ "FLYING" ]
+									"bonusType" :  "FLYING" 
 								}
 							]
 						},
@@ -335,12 +305,11 @@
 								"OPPOSITE_SIDE",
 								{
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [ "CASTS" ]
+									"bonusType" :  "CASTS" 
 								}
 							]
 						}
-					],
-					"mode" : "grail"
+					]
 				},
 				"dwellingLvl1" :
 				{
@@ -353,7 +322,7 @@
 
 					},
 					"requires" : [ "fort" ],
-					"id" : 30
+					
 				},
 				"dwellingLvl2" :
 				{
@@ -365,7 +334,7 @@
 						"wood" : 5
 					},
 					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ] ],
-					"id" : 31
+					
 				},
 				"dwellingLvl3" :
 				{
@@ -377,7 +346,7 @@
 						"wood" : 5
 					},
 					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ],  //check
-					"id" : 32
+					
 				},
 				"dwellingLvl4" :
 				{
@@ -388,7 +357,7 @@
 						"ore" : 10
 						},
 					"requires" : [ "dwellingLvl3" ], //check
-					"id" : 33
+					
 				},
 				"dwellingLvl5" :
 				{
@@ -399,7 +368,7 @@
 						"gold" : 3000
 					},
 					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild1" ] ],
-					"id" : 34
+					
 				},
 				"dwellingLvl6" :
 				{
@@ -413,7 +382,7 @@
 						"gems" : 2
 					},
 					"requires" : [ "dwellingLvl5" ],
-					"id" : 35
+					
 				},
 				"dwellingLvl7" :
 				{
@@ -426,7 +395,7 @@
 						"gems" : 10
 					},
 					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl4" ], [ "dwellingLvl5" ], [ "mageGuild2" ] ],
-					"id" : 36
+					
 				},
 				"dwellingUpLvl1" :
 				{
@@ -436,7 +405,7 @@
 						"gold" : 1000,
 						"wood" : 5			
 					},
-					"id" : 37,
+					
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" :
@@ -447,7 +416,7 @@
 						"gold" : 1000,
 						"ore" : 5
 					},
-					"id" : 38,
+					
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" :
@@ -460,7 +429,7 @@
 						"wood" : 5,
 						"crystal" : 5
 					},
-					"id" : 39,
+					
 					"requires" :  [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl3"
 				},
@@ -473,7 +442,7 @@
 						"gems" : 5,
 						"gold" : 2000
 					},
-					"id" : 40,
+					
 					"requires" :  [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl4"
 				},
@@ -485,7 +454,7 @@
 						"ore" : 10,
 						"gold" : 2000
 					},
-					"id" : 41,
+					
 					//"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl5"
 				},
@@ -500,7 +469,7 @@
 						"crystal" :2,
 						"gems" : 2
 					},
-					"id" : 42,
+					
 					"requires" :  [ "mageGuild2" ],
 					"upgrades" : "dwellingLvl6"
 				},
@@ -516,7 +485,7 @@
 						"gems" : 20
 					},
 					"requires" : [ "mageGuild3" ],
-					"id" : 43,
+					
 					"upgrades" : "dwellingLvl7"
 				},
 				
@@ -535,7 +504,7 @@
 							["castle"], 
 							["dwellingUpLvl6"]
 					],
-					"id" : 44,
+					
 					"upgrades" : "dwellingUpLvl1"
 				},
 				"dwellingUp2Lvl2" :
@@ -547,7 +516,7 @@
 						"ore" : 10,
 						"wood" : 5
 					},
-					"id" : 45,
+					
 					"requires" : [ "dwellingUp2Lvl1" ],
 					"upgrades" : "dwellingUpLvl2"
 				},
@@ -561,7 +530,7 @@
 						"wood" : 10,
 						"crystal" : 5
 					},
-					"id" : 46,
+					
 					"requires" : 
 					[ 
 						"allOf",
@@ -579,7 +548,7 @@
 						"gems" : 5,
 						"gold" : 4000
 					},
-					"id" : 47,
+					
 					"requires" :  [ "dwellingUp2Lvl3" ],
 					"upgrades" : "dwellingUpLvl4"
 				},
@@ -591,7 +560,7 @@
 						"ore" : 20,
 						"gold" : 5000
 					},
-					"id" : 48,
+					
 					"requires" : [ "dwellingUp2Lvl4" ],
 					"upgrades" : "dwellingUpLvl5"
 				},
@@ -606,7 +575,7 @@
 						"crystal": 4,
 						"gems" :   4
 					},
-					"id" : 49,
+					
 					"requires" : 
 					[ 
 						"allOf",
@@ -627,7 +596,7 @@
 						"gems"  : 50
 					},
 					"requires" : [ "dwellingUp2Lvl6" ],
-					"id" : 50,
+					
 					"upgrades" : "dwellingUpLvl7"
 				}
 			}
