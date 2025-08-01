@@ -1,28 +1,20 @@
 {
-	"retreat" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"retreat" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					
+					}
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -32,12 +24,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -47,12 +37,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -62,12 +50,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -77,179 +63,153 @@
 						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
-					
 				},
-				"shipyard" :
-				{
+				"shipyard" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"gold" : 2000
 					}
-					
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
-					
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					}
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
-					
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resourse Silo provides you with an additional +1 gems each day.",
 					"name" : "Resourse Silo",
-					"produce": { "gems": 1},
-					"cost" :
-					{
+					"produce" : {
+						"gems" : 1
+					},
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					}
-					
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Golden Folangjis.",
 					"name" : "Blacksmith",
 					"warMachine" : "atGoldenLion",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					}
-					
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "The Garden of Vines increases weekly production of Hulu Leaves by 10 per week.",
 					"name" : "Garden of Vines",
 					"cost" : {
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "dwellingLvl1"
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "The Garden of Vines increases weekly production of Hulu Flowers by 10 per week.",
 					"name" : "Garden of Vines",
 					"cost" : {
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [ "horde1" ]
+					"requires" : [
+						"horde1"
+					]
 				},
-				"horde1Upgr2" :
-				{
+				"horde1Upgr2" : {
 					"description" : "The Garden of Vines increases weekly production of Hulu Vines by 10 per week.",
 					"name" : "{Garden of Vines}",
 					"cost" : {
 						"gold" : 1000
 					},
-					
+
 					"upgrades" : "dwellingUp2Lvl1",
-					"requires" : [ "horde1Upgr" ]
+					"requires" : [
+						"horde1Upgr"
+					]
 				},
-				"ship" :
-				{
+				"ship" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships."
-
-					
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
 					"name" : "Artifact Merchant",
-					"marketModes" : ["resource-artifact", "artifact-resource"],
+					"marketModes" : [
+						"resource-artifact",
+						"artifact-resource"
+					],
 					"cost" : {
 						"gold" : 10000
 					},
-					"requires" : [ "marketplace" ]
+					"requires" : [
+						"marketplace"
+					]
 				},
-				"special2" :
-				{
+				"special2" : {
 					"description" : "The Lake Pavilion increases the Power skill of any visiting hero by +1.",
 					"name" : "Lake Pavilion",
 					"cost" : {
@@ -260,72 +220,75 @@
 						"rewards" : [
 							{
 								"message" : "The Lake Pavilion teaches you new ways to focus your magical powers (+1 Power)",
-								"primary" : { "spellpower" : 1 }
+								"primary" : {
+									"spellpower" : 1
+								}
 							}
 						]
 					},
-					"requires" : [ "mageGuild1" ]
+					"requires" : [
+						"mageGuild1"
+					]
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "The Gate of Ascension increases weekly creature generation by 50 percent and adds 5000 gold per day. Besides during siege all enemy shooters loose 50 percent of their arrows, fliers are 35 percent slower and casters have one spell less to cast.",
 					"name" : "Gate of Ascension",
 
-					"bonuses": [
-						{ 
-							"type": "SHOTS", 
-							"val": -50,
+					"bonuses" : [
+						{
+							"type" : "SHOTS",
+							"val" : -50,
 							"valueType" : "PERCENT_TO_BASE",
-							"propagator": "BATTLE_WIDE",
+							"propagator" : "BATTLE_WIDE",
 							"propagationUpdater" : "BONUS_OWNER_UPDATER",
-							"limiters" : [ "OPPOSITE_SIDE" ]
+							"limiters" : [
+								"OPPOSITE_SIDE"
+							]
 						},
-						{ 
-							"type": "STACKS_SPEED", 
-							"val": -35, 
+						{
+							"type" : "STACKS_SPEED",
+							"val" : -35,
 							"valueType" : "PERCENT_TO_BASE",
-							"propagator": "BATTLE_WIDE",
+							"propagator" : "BATTLE_WIDE",
 							"propagationUpdater" : "BONUS_OWNER_UPDATER",
 							"limiters" : [
 								"allOf",
 								"OPPOSITE_SIDE",
 								{
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"bonusType" :  "FLYING" 
+									"bonusType" : "FLYING"
 								}
 							]
 						},
-						{ 
-							"type": "CASTS", 
-							"val": -1, 
-							"propagator": "BATTLE_WIDE",
+						{
+							"type" : "CASTS",
+							"val" : -1,
+							"propagator" : "BATTLE_WIDE",
 							"propagationUpdater" : "BONUS_OWNER_UPDATER",
 							"limiters" : [
 								"allOf",
 								"OPPOSITE_SIDE",
 								{
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"bonusType" :  "CASTS" 
+									"bonusType" : "CASTS"
 								}
 							]
 						}
 					]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "The Vine Yard allows to recruit Hulu Leaves.",
 					"name" : "Vine Yard",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5,
 						"ore" : 5
-
 					},
-					"requires" : [ "fort" ],
-					
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "The Monkey Temple allows to recruit Monkeys.",
 					"name" : "Monkey Temple",
 					"cost" : {
@@ -333,11 +296,17 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "The Hall of Trials allows to recruit Cultivators.",
 					"name" : "Hall of Trials",
 					"cost" : {
@@ -345,33 +314,45 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ],  //check
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"blacksmith"
+						]
+					] //check
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Wall of Carvings allows to recruit Dhuta Walkers.",
 					"name" : "Wall of Carvings",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 10
-						},
-					"requires" : [ "dwellingLvl3" ], //check
-					
+					},
+					"requires" : [
+						"dwellingLvl3"
+					] //check
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "The Deep Woods allow to recruit Deer Girls.",
 					"name" : "Deep Woods",
 					"cost" : {
 						"ore" : 10,
 						"gold" : 3000
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "mageGuild1" ] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "The Statue of the Goddess allows to recruit Snake Graspers.",
 					"name" : "Statue of Goddess",
 					"cost" : {
@@ -381,11 +362,11 @@
 						"sulfur" : 2,
 						"gems" : 2
 					},
-					"requires" : [ "dwellingLvl5" ],
-					
+					"requires" : [
+						"dwellingLvl5"
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "The Mark of Eminence allows to recruit Fire Dragons.",
 					"name" : "Mark of Eminence",
 					"cost" : {
@@ -394,33 +375,43 @@
 						"ore" : 20,
 						"gems" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl4" ], [ "dwellingLvl5" ], [ "mageGuild2" ] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						],
+						[
+							"mageGuild2"
+						]
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "The Vine Yard allows to recruit Hulu Flowers.",
 					"name" : "Adv. Vine Yard",
 					"cost" : {
 						"gold" : 1000,
-						"wood" : 5			
+						"wood" : 5
 					},
-					
+
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Monkey Temple allows to recruit Monkey Elders.",
 					"name" : "Adv. Monkey Temple",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5
 					},
-					
+
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Hall of Trials allows to recruit Sword Cultivators.",
 					"name" : "Adv. Hall of Trials",
 					"cost" : {
@@ -429,12 +420,13 @@
 						"wood" : 5,
 						"crystal" : 5
 					},
-					
-					"requires" :  [ "mageGuild1" ],
+
+					"requires" : [
+						"mageGuild1"
+					],
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Wall of Carvings allows to recruit Dhuta Seekers.",
 					"name" : "Adv. Wall of Carvings",
 					"cost" : {
@@ -442,40 +434,41 @@
 						"gems" : 5,
 						"gold" : 2000
 					},
-					
-					"requires" :  [ "mageGuild1" ],
+
+					"requires" : [
+						"mageGuild1"
+					],
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "The Deep Woods allow to recruit Deer Fairies.",
 					"name" : "Adv. Deep Woods",
 					"cost" : {
 						"ore" : 10,
 						"gold" : 2000
 					},
-					
+
 					//"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "The Statue of the Goddess allows to recruit Snake Bearers.",
 					"name" : "Adv. Statue of Goddess",
 					"cost" : {
 						"gold" : 3500,
 						"wood" : 15,
 						"sulfur" : 2,
-						"crystal" :2,
+						"crystal" : 2,
 						"gems" : 2
 					},
-					
-					"requires" :  [ "mageGuild2" ],
+
+					"requires" : [
+						"mageGuild2"
+					],
 					"upgrades" : "dwellingLvl6"
 				},
 
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "The Mark of Eminence allows to recruit Jade Dragons.",
 					"name" : "Adv. Mark of Eminence",
 					"cost" : {
@@ -484,31 +477,34 @@
 						"gold" : 20000,
 						"gems" : 20
 					},
-					"requires" : [ "mageGuild3" ],
-					
+					"requires" : [
+						"mageGuild3"
+					],
+
 					"upgrades" : "dwellingLvl7"
 				},
-				
-				"dwellingUp2Lvl1" :
-				{
+
+				"dwellingUp2Lvl1" : {
 					"description" : "The Vine Yard allows to recruit Hulu Vines.",
 					"name" : "{Upg. Vine Yard}",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 10,
-						"ore" : 5						
+						"ore" : 5
 					},
-					"requires" : 
-					[ 
+					"requires" : [
 						"allOf",
-							["castle"], 
-							["dwellingUpLvl6"]
+						[
+							"castle"
+						],
+						[
+							"dwellingUpLvl6"
+						]
 					],
-					
+
 					"upgrades" : "dwellingUpLvl1"
 				},
-				"dwellingUp2Lvl2" :
-				{
+				"dwellingUp2Lvl2" : {
 					"description" : "The Monkey Temple allows to recruit Monkey Leaders.",
 					"name" : "{Upg. Monkey Temple}",
 					"cost" : {
@@ -516,12 +512,13 @@
 						"ore" : 10,
 						"wood" : 5
 					},
-					
-					"requires" : [ "dwellingUp2Lvl1" ],
+
+					"requires" : [
+						"dwellingUp2Lvl1"
+					],
 					"upgrades" : "dwellingUpLvl2"
 				},
-				"dwellingUp2Lvl3" :
-				{
+				"dwellingUp2Lvl3" : {
 					"description" : "The Hall of Trials allows to recruit Golden Core Cultivators.",
 					"name" : "{Upg. Hall of Trials}",
 					"cost" : {
@@ -530,17 +527,19 @@
 						"wood" : 10,
 						"crystal" : 5
 					},
-					
-					"requires" : 
-					[ 
+
+					"requires" : [
 						"allOf",
-							["castle"], 
-							["dwellingUpLvl6"]
+						[
+							"castle"
+						],
+						[
+							"dwellingUpLvl6"
+						]
 					],
 					"upgrades" : "dwellingUpLvl3"
 				},
-				"dwellingUp2Lvl4" :
-				{
+				"dwellingUp2Lvl4" : {
 					"description" : "The Wall of Carvings allows to recruit Dhuta Venerables.",
 					"name" : "{Upg. Wall of Carvings}",
 					"cost" : {
@@ -548,59 +547,66 @@
 						"gems" : 5,
 						"gold" : 4000
 					},
-					
-					"requires" :  [ "dwellingUp2Lvl3" ],
+
+					"requires" : [
+						"dwellingUp2Lvl3"
+					],
 					"upgrades" : "dwellingUpLvl4"
 				},
-				"dwellingUp2Lvl5" :
-				{
+				"dwellingUp2Lvl5" : {
 					"description" : "The Deep Woods allow to recruit Jue Rus.",
 					"name" : "{Upg. Deep Woods}",
 					"cost" : {
 						"ore" : 20,
 						"gold" : 5000
 					},
-					
-					"requires" : [ "dwellingUp2Lvl4" ],
+
+					"requires" : [
+						"dwellingUp2Lvl4"
+					],
 					"upgrades" : "dwellingUpLvl5"
 				},
-				"dwellingUp2Lvl6" :
-				{
+				"dwellingUp2Lvl6" : {
 					"description" : "The Statue of the Goddess allows to recruit Jiu Yings.",
 					"name" : "{Upg. Statue of Goddess}",
 					"cost" : {
 						"gold" : 8500,
-						"wood" :  30,
+						"wood" : 30,
 						"sulfur" : 4,
-						"crystal": 4,
-						"gems" :   4
+						"crystal" : 4,
+						"gems" : 4
 					},
-					
-					"requires" : 
-					[ 
+
+					"requires" : [
 						"allOf",
-							["castle"], 
-							["dwellingUpLvl6"],
-							["mageGuild4"]
+						[
+							"castle"
+						],
+						[
+							"dwellingUpLvl6"
+						],
+						[
+							"mageGuild4"
+						]
 					],
 					"upgrades" : "dwellingUpLvl6"
-				},				
-				"dwellingUp2Lvl7" :
-				{
-					"description" : "The Symbol of Eminence allows to recruit Ying Longs.", 
+				},
+				"dwellingUp2Lvl7" : {
+					"description" : "The Symbol of Eminence allows to recruit Ying Longs.",
 					"name" : "{Symbol of Eminence}",
 					"cost" : {
-						"sulfur": 20,
-						"ore"   : 40,
-						"gold"  : 35000,
-						"gems"  : 50
+						"sulfur" : 20,
+						"ore" : 40,
+						"gold" : 35000,
+						"gems" : 50
 					},
-					"requires" : [ "dwellingUp2Lvl6" ],
-					
+					"requires" : [
+						"dwellingUp2Lvl6"
+					],
+
 					"upgrades" : "dwellingUpLvl7"
 				}
 			}
 		}
 	}
 }
-

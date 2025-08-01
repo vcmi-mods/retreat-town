@@ -1,44 +1,40 @@
 {
-	"amMonkey":
-	{
-		"name" :
-		{
+	"amMonkey" : {
+		"name" : {
 			"plural" : "Monkeys",
 			"singular" : "Monkey"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "retreat",
 		"aiValue" : 121,
 		"attack" : 5,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 100
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 2
+		"damage" : {
+			"max" : 3,
+			"min" : 2
 		},
 		"defense" : 4,
 		"fightValue" : 114,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR201.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "retreat/map/AVW201.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS201.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL201.bmp",
 			"timeBetweenFidgets" : 1,
-		    "missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 8,
-				"projectile": "Phalf.DEF",
-				"offset" :
-				{
+				"projectile" : "Phalf.DEF",
+				"offset" : {
 					"upperX" : 32,
 					"upperY" : -77,
 					"middleX" : 40,
@@ -46,35 +42,43 @@
 					"lowerX" : 18,
 					"lowerY" : -55
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			}			
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
-        "shots" : 12,
+		"shots" : 12,
 		"growth" : 9,
 		"hitPoints" : 10,
-        "level" : 2,
-		"upgrades":
-		[
+		"level" : 2,
+		"upgrades" : [
 			"amMonkeyElder"
 		],
-		"sound" :
-		{
-			"attack": "retreat/S201ATTK.wav",
-			"defend": "retreat/S201DFND.wav",
-			"killed": "retreat/S201KILL.wav",
-			"move":   "retreat/S201MOVE.wav",
-			"shoot":   "retreat/S201SHOT.wav",
-			"wince":  "retreat/S201WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S201ATTK.wav",
+			"defend" : "retreat/S201DFND.wav",
+			"killed" : "retreat/S201KILL.wav",
+			"move" : "retreat/S201MOVE.wav",
+			"shoot" : "retreat/S201SHOT.wav",
+			"wince" : "retreat/S201WNCE.wav"
 		},
 		"speed" : 5,
-	    "abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"limitedShoot" :
-			{
+			"limitedShoot" : {
 				"type" : "LIMITED_SHOOTING_RANGE",
 				"val" : 8
 			}

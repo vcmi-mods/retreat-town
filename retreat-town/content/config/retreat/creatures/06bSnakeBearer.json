@@ -1,50 +1,41 @@
 {
-	"amSnakeBearer":
-	{
-		"name" :
-		{
+	"amSnakeBearer" : {
+		"name" : {
 			"plural" : "Snake Bearers",
 			"singular" : "Snake Bearer"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "retreat",
 		"aiValue" : 1802,
 		"fightValue" : 1508,
 		"attack" : 15,
 		"defense" : 15,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1000
 		},
-		"damage" :
-		{
-			 "max" : 25,
-			 "min" : 20
+		"damage" : {
+			"max" : 25,
+			"min" : 20
 		},
 		"speed" : 9,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR210.def",
 			"map" : "retreat/map/AVW210.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS210.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL210.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PMAGEX.def",
 				"attackClimaxFrame" : 12,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -98,
 					"middleX" : 62,
@@ -52,43 +43,53 @@
 					"lowerX" : 28,
 					"lowerY" : -20
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"hitPoints" : 110,
 		"doubleWide" : true,
-        "growth" : 2,
+		"growth" : 2,
 		"level" : 6,
-		"upgrades":
-		[
+		"upgrades" : [
 			"amJiuYing"
 		],
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "retreat/S209ATTK.wav",
-			"defend": "retreat/S209DFND.wav",
-			"killed": "retreat/S209KILL.wav",
-			"move":   "retreat/S209MOVE.wav",
-			"shoot":   "retreat/S209SHOT.wav",
-			"wince":  "retreat/S209WNCE.wav"      
+		"sound" : {
+			"attack" : "retreat/S209ATTK.wav",
+			"defend" : "retreat/S209DFND.wav",
+			"killed" : "retreat/S209KILL.wav",
+			"move" : "retreat/S209MOVE.wav",
+			"shoot" : "retreat/S209SHOT.wav",
+			"wince" : "retreat/S209WNCE.wav"
 		},
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER" //casts 1
 			},
-			"no melee penalty" :
-			{
+			"no melee penalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"poison" :
-			{
+			"poison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "poison",
 				"val" : 100,
-				"addInfo" : [0,2]
+				"addInfo" : [
+					0,
+					2
+				]
 			}
 		}
 	}

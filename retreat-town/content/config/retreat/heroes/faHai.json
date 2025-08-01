@@ -1,39 +1,44 @@
 {
-	"12faHai" : 
-	{
+	"12faHai" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Fa Hai",
 			"biography" : "Fa Hai is a pioneer in practicing exorcism. He believes that the souls should enter the afterworld after the death of the bodies.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Increases the speed of Dhuta Walkers, Dhuta Walkers, or Dhuta Venerables by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Dhuta Seekers",
 				"name" : "Dhuta Walkers"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/faHai/spec-small",
 			"specialtyLarge" : "retreat/heroes/faHai/spec-large",
 			"large" : "retreat/heroes/faHai/HPL003EL",
 			"small" : "retreat/heroes/faHai/HPS003EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"destroyUndead"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -43,11 +48,9 @@
 				"skill" : "scholar"
 			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "amDhutaWalker"
 		}
 	}
 }
-
-

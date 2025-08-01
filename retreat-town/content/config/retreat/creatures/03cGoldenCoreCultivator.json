@@ -1,46 +1,42 @@
 {
-	"amGoldenCoreCultivator":
-	{
-		"name" :
-		{
+	"amGoldenCoreCultivator" : {
+		"name" : {
 			"plural" : "Golden Core Cultivators",
 			"singular" : "Golden Core Cultivator"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 17,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 17,
+			"min" : 12
 		},
 		"faction" : "retreat",
 		"aiValue" : 534,
 		"attack" : 12,
 		"hasDoubleWeek" : true,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 420
 		},
-		"damage" :
-		{
-			 "max" : 10,
-			 "min" : 6
+		"damage" : {
+			"max" : 10,
+			"min" : 6
 		},
 		"shots" : 4,
 		"defense" : 10,
 		"fightValue" : 471,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR223.def",
-			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 1.2 },
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 10,
+				"walk" : 1.2
+			},
 			"map" : "retreat/map/AVW223.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS223.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL223.bmp",
 			"timeBetweenFidgets" : 1,
-		    "missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 7,
-				"projectile": "Phalf.DEF",
-				"offset" :
-				{
+				"projectile" : "Phalf.DEF",
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -98,
 					"middleX" : 62,
@@ -48,40 +44,47 @@
 					"lowerX" : 28,
 					"lowerY" : -20
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-        },
+		},
 
 		"growth" : 7,
 		"hitPoints" : 30,
 		"level" : 3,
-		"sound" :
-		{
-			"attack": "retreat/S204ATTK.wav",
-			"defend": "retreat/S204DFND.wav",
-			"killed": "retreat/S204KILL.wav",
-			"move":   "retreat/S204MOVE.wav",
-			"shoot":   "retreat/S204SHOT.wav",
-			"wince":  "retreat/S204WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S204ATTK.wav",
+			"defend" : "retreat/S204DFND.wav",
+			"killed" : "retreat/S204KILL.wav",
+			"move" : "retreat/S204MOVE.wav",
+			"shoot" : "retreat/S204SHOT.wav",
+			"wince" : "retreat/S204WNCE.wav"
 		},
 		"speed" : 12,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"canShoot" :
-			{
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
 
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"disruptingRay" :
-			{
+			"disruptingRay" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "disruptingRay",
 				"val" : 60

@@ -1,39 +1,44 @@
 {
-	"15luDaShi" : 
-	{
+	"15luDaShi" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Lu Da Shi",
 			"biography" : "Lu Da Shi is such a mysterious person who can manipulate the weather and geography to his advantage.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Mysticism",
 				"name" : "Mysticism"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/luDaShi/spec-small",
 			"specialtyLarge" : "retreat/heroes/luDaShi/spec-large",
 			"large" : "retreat/heroes/luDaShi/HPL007EL",
 			"small" : "retreat/heroes/luDaShi/HPS007EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "mysticism"
@@ -44,7 +49,7 @@
 			}
 		],
 		"specialty" : {
-				"secondary" : "mysticism"
+			"secondary" : "mysticism"
 		}
 	}
 }

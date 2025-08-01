@@ -3,89 +3,156 @@
 		"types" : {
 			"amVineYard" : {
 				"name" : "Vine Yard",
-				"creatures" : [[ "amHuluLeaf" ]],
+				"creatures" : [
+					[
+						"amHuluLeaf"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"amTempl" : {
 				"name" : "Monkey Temple",
-				"creatures" : [[ "amMonkey" ]],
-				"sounds": {
-					"ambient": ["dwellings/rtrdwl2.wav"]
+				"creatures" : [
+					[
+						"amMonkey"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/rtrdwl2.wav"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"amHallTrials" : {
 				"name" : "Hall of Trials",
-				"creatures" : [[ "amCultivator" ]],
+				"creatures" : [
+					[
+						"amCultivator"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VBV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"amWall" : {
 				"name" : "Wall of Carvings",
-				"creatures" : [[ "amDhutaWalker" ]],
-				"sounds": {
-					"ambient": ["dwellings/rtrdwl4.wav"]
+				"creatures" : [
+					[
+						"amDhutaWalker"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/rtrdwl4.wav"
+					]
 				},
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VVV", "VBB", "VAA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB",
+							"VAA"
+						]
 					}
 				}
 			},
 			"amDeepWoods" : {
 				"name" : "Deep Woods",
-				"creatures" : [[ "amDeerGirl" ]],
+				"creatures" : [
+					[
+						"amDeerGirl"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVVVV", "VVVV", "VVVV", "VVBB", "VVAB" ]
+						"mask" : [
+							"VVVVV",
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						]
 					}
 				}
 			},
 			"amStatue" : {
 				"name" : "Statue of Goddess",
-				"creatures" : [[ "amSnakeGrasper" ]],
-				"sounds": {
-					"ambient": ["dwellings/rtrdwl5.wav"]
+				"creatures" : [
+					[
+						"amSnakeGrasper"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/rtrdwl5.wav"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-5.def",
-						"mask" : [ "VBV", "VBV", "VAV" ]
+						"mask" : [
+							"VBV",
+							"VBV",
+							"VAV"
+						]
 					}
 				}
 			},
 			"amMark" : {
 				"name" : "Mark of Eminence",
-				"creatures" : [[ "amFireDragon" ]],
-				"sounds": {
-					"ambient": ["dwellings/rtrdwl7.wav"]
+				"creatures" : [
+					[
+						"amFireDragon"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/rtrdwl7.wav"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-7.def",
-						"mask" : [ "VVV", "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

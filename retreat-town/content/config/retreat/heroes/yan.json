@@ -1,39 +1,44 @@
 {
-	"14yan" : 
-	{
+	"14yan" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Tu Shan Yan",
 			"biography" : "Tu Shan Yan is a survivor of the devastated Tu Shan Clan, which was one of the largest clan in land.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/yan/spec-small",
 			"specialtyLarge" : "retreat/heroes/yan/spec-large",
 			"large" : "retreat/heroes/yan/HPL005EL",
 			"small" : "retreat/heroes/yan/HPS005EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"iceBolt"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "sorcery"
@@ -43,11 +48,9 @@
 				"skill" : "airMagic"
 			}
 		],
-    
+
 		"specialty" : {
-				"secondary" : "sorcery"
+			"secondary" : "sorcery"
 		}
 	}
 }
-
-

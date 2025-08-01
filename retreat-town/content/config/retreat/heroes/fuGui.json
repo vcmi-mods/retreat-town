@@ -1,45 +1,56 @@
 {
-	"13fuGui" : 
-	{
+	"13fuGui" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sheng Fu Gui",
 			"biography" : "Sheng Fu Gui is born a successful merchant and entrepreneur. His capability and personality are both highly recognised by the folks.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Estates skill.",
 				"tooltip" : "Secondary Skill Bonus: Estates",
 				"name" : "Estates"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/fuGui/spec-small.png",
 			"specialtyLarge" : "retreat/heroes/fuGui/spec-large.png",
 			"large" : "retreat/heroes/fuGui/HPL004EL",
 			"small" : "retreat/heroes/fuGui/HPS004EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"viewAir"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "estates", "level": "basic" },
-			{ "skill" : "logistics", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
-				"secondary" : "estates"
+			"secondary" : "estates"
 		}
 	}
 }

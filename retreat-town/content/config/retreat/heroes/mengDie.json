@@ -1,39 +1,44 @@
 {
-	"11mengDie" : 
-	{
+	"11mengDie" : {
 		"class" : "yingYanMaster",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Meng Die",
 			"biography" : "Meng Die was Ding Chan's wife. Soaked with sorrow and hate after his leave, she has locked herself in the study of corpse magics.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Sorrow with effect increased by 3% for every n hero levels, where n is the level of the targeted creature. ",
 				"tooltip" : "Spell Bonus: Sorrow",
 				"name" : "Sorrow"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/mengDie/spec-small",
 			"specialtyLarge" : "retreat/heroes/mengDie/spec-large",
 			"large" : "retreat/heroes/mengDie/HPL002EL",
 			"small" : "retreat/heroes/mengDie/HPS002EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"sorrow"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "learning"
@@ -43,9 +48,9 @@
 				"skill" : "wisdom"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"sorrow": {
+		"specialty" : {
+			"bonuses" : {
+				"sorrow" : {
 					"addInfo" : 0,
 					"subtype" : "sorrow",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
@@ -54,5 +59,3 @@
 		}
 	}
 }
-
-

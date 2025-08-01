@@ -1,34 +1,40 @@
 {
-	"08wangQuan" : 
-	{
+	"08wangQuan" : {
 		"class" : "vanguard",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Wang Quan",
 			"biography" : "Wang Quan is a master of the sword and has a high position in the Taoist Alliance. Few have seen her using a sword.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Increases Ammo Cart health by 50%. Ballista reduce attacked unit defense. Increases artillery skill by 5% per level. Catapult always deal maximum damage and shot twice.",
 				"tooltip" : "Creature Bonus: War Machine", //additional ammo cart in battles
 				"name" : "War Machine"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/wangQuan/spec-small",
 			"specialtyLarge" : "retreat/heroes/wangQuan/spec-large",
 			"large" : "retreat/heroes/wangQuan/HPL007PL",
 			"small" : "retreat/heroes/wangQuan/HPS007PL"
 		},
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
-			{ "creature" : "ammoCart", "min" : 1, "max" : 1 },
-			{ "creature" : "ballista", "min" : 1, "max" : 1 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "ammoCart",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "artillery"
@@ -38,68 +44,62 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialty": //ammoCart
-		{
-			"bonuses" : 
-			{
-				"ammoCartHealth": 
-				{
-					"type": "STACK_HEALTH",
-					"val": 50,
-					"valueType": "PERCENT_TO_BASE",
-					"limiters": 
-					[
+		//ammoCart
+		"specialty" : {
+			"bonuses" : {
+				"ammoCartHealth" : {
+					"type" : "STACK_HEALTH",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_BASE",
+					"limiters" : [
 						{
-							"type": "CREATURE_TYPE_LIMITER",
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ammoCart",
 							"includeUpgrades" : false
 						}
 					]
 				},
-				"ballistaDefenceReduction": 
-				{
-					"type": "SPELL_BEFORE_ATTACK",
-					"val": 100,
-					"subtype": "disruptingRay",
-					"addInfo": [3, 0],
-					"limiters": 
-					[
-						{	
-							"type": "CREATURE_TYPE_LIMITER",
+				"ballistaDefenceReduction" : {
+					"type" : "SPELL_BEFORE_ATTACK",
+					"val" : 100,
+					"subtype" : "disruptingRay",
+					"addInfo" : [
+						3,
+						0
+					],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ballista",
 							"includeUpgrades" : false
 						}
 					]
-				},			
-				"ballistaAttacks": 
-				{
-					"type": "HERO_GRANTS_ATTACKS",
-					"subtype": "ballista",
-					"val": 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater": "TIMES_HERO_LEVEL"
-				},			
-				"ballistaDamageChance": 
-				{
-					"type": "BONUS_DAMAGE_CHANCE",
-					"subtype": "ballista",
-					"val": 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater": "TIMES_HERO_LEVEL"
-				},			
-				"ballistaDamagePercentage": 
-				{
-					"type": "BONUS_DAMAGE_PERCENTAGE",
-					"subtype": "ballista",
-					"val": 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater": "TIMES_HERO_LEVEL"
 				},
-				"catapultShotEffect":
-				{
+				"ballistaAttacks" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "ballista",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL"
+				},
+				"ballistaDamageChance" : {
+					"type" : "BONUS_DAMAGE_CHANCE",
+					"subtype" : "ballista",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL"
+				},
+				"ballistaDamagePercentage" : {
+					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"subtype" : "ballista",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL"
+				},
+				"catapultShotEffect" : {
 					"subtype" : "catapultShot",
 					"type" : "CATAPULT_EXTRA_SHOTS",
 					"valueType" : "INDEPENDENT_MIN",

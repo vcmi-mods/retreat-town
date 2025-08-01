@@ -1,45 +1,41 @@
 {
-	"amSnakeGrasper":
-	{
-		"name" :
-		{
+	"amSnakeGrasper" : {
+		"name" : {
 			"plural" : "Snake Graspers",
 			"singular" : "Snake Grasper"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
 		},
 		"faction" : "retreat",
 		"aiValue" : 1504,
 		"attack" : 13,
 		"hasDoubleWeek" : true,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 900
 		},
-		"damage" :
-		{
-			 "max" : 25,
-			 "min" : 15
+		"damage" : {
+			"max" : 25,
+			"min" : 15
 		},
 		"defense" : 13,
 		"fightValue" : 1269,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR209.def",
-			"animationTime" : { "attack" : 0.8, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 0.8,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "retreat/map/AVW209.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS209.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL209.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PMAGEX.def",
 				"attackClimaxFrame" : 12,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -98,
 					"middleX" : 62,
@@ -47,33 +43,42 @@
 					"lowerX" : 28,
 					"lowerY" : -20
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 2,
 		"hitPoints" : 90,
 		"level" : 6,
-		"upgrades":
-		[
+		"upgrades" : [
 			"amSnakeBearer"
 		],
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "retreat/S209ATTK.wav",
-			"defend": "retreat/S209DFND.wav",
-			"killed": "retreat/S209KILL.wav",
-			"move":   "retreat/S209MOVE.wav",
-			"shoot":   "retreat/S209SHOT.wav",
-			"wince":  "retreat/S209WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S209ATTK.wav",
+			"defend" : "retreat/S209DFND.wav",
+			"killed" : "retreat/S209KILL.wav",
+			"move" : "retreat/S209MOVE.wav",
+			"shoot" : "retreat/S209SHOT.wav",
+			"wince" : "retreat/S209WNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canShoot" :
-			{
-				"type" : "SHOOTER" 
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
 			}
-	    }
+		}
 	}
 }

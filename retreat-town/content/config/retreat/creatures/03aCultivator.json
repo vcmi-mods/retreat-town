@@ -1,64 +1,57 @@
 {
-	"amCultivator":
-	{
-		"name" :
-		{
+	"amCultivator" : {
+		"name" : {
 			"plural" : "Cultivators",
 			"singular" : "Cultivator"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
 		},
 		"faction" : "retreat",
 		"aiValue" : 237,
 		"attack" : 7,
 		"hasDoubleWeek" : true,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 15
 		},
-		"damage" :
-		{
-			 "max" : 6,
-			 "min" : 3
+		"damage" : {
+			"max" : 6,
+			"min" : 3
 		},
 		"defense" : 7,
 		"fightValue" : 246,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR203.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.2 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.2
+			},
 			"map" : "retreat/map/AVW203.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS203.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL203.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 7,
 		"hitPoints" : 20,
 		"level" : 3,
-		"upgrades":
-		[
+		"upgrades" : [
 			"amSwordCultivator"
 		],
-		"sound" :
-		{
-			"attack": "retreat/S203ATTK.wav",
-			"defend": "retreat/S203DFND.wav",
-			"killed": "retreat/S204KILL.wav",
-			"move":   "retreat/S203MOVE.wav",
-			"shoot":   "retreat/S204SHOT.wav",
-			"wince":  "retreat/S204WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S203ATTK.wav",
+			"defend" : "retreat/S203DFND.wav",
+			"killed" : "retreat/S204KILL.wav",
+			"move" : "retreat/S203MOVE.wav",
+			"shoot" : "retreat/S204SHOT.wav",
+			"wince" : "retreat/S204WNCE.wav"
 		},
 		"speed" : 6,
-		"abilities":
-		{
-		"canFly" : 
-			{
-				"type" : "FLYING"		
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
 			}
 		}
 	}
 }
-

@@ -5,37 +5,85 @@
 	"contact" : "https://vk.com/club161023181",
 	"version" : "0.8.7",
 	"modType" : "Town",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
-	},	
-	"changelog" :
-    {
-		"0.8.7" : [ "Added few ability icons" ],
-		"0.8.6" : [ "Update to vcmi-1.7 format" ],
-		"0.8.5" : [ "Changed Wang Quan specialy" ],
-		"0.8.4" : [ "Fix Grail not to produce gold" ],
-		"0.8.3" : [ "Update to vcmi-1.6 format" ],
-		"0.8.2" : [ "Polish translation by FallainBlack" ],
-		"0.8.0" : [ "Lord Hawk's town balance" ],
-		"0.7.1" : [ "New creature portraits by Aphra" ],
-		"0.7.0" : [ "Line-up changes", "Third upgrades added" ],
-		"0.6.3" : [ "Updated chinese translation" ],
-		"0.6.2" : [ "New town and citadel sprites on map" ],
-		"0.6.1" : [ "Updated russian translation" ],
-		"0.6.0" : [ "Russian translation by Anton Sergeew " ],
-		"0.5.9" : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"0.5.8" : [ "Added the creatures' stackExp, fixed the commander and other bugs" ],
-		"0.5.7" : [ "Improved chinese translation", "More suitable sounds", "Few graphical minor improvements" ],
-		"0.5.6" : [ "Fixed missing graphic for 7th lvl dwelling in townscreen" ],
-		"0.5.5" : [ "New portraits", "Improved french translation" ],
-		"0.5.4" : [ "Update to vcmi-1.3" ],
-		"0.5.3" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"0.5.2" : [ "Update to vcmi-1.2" ],
-		"0.5.1" : [ "Special buildings support" ],
-		"0.5.0" : [ "Re-worked mod to match ERA original version" ]
-    },
-        "chinese" : {
+	},
+	"changelog" : {
+		"0.8.7" : [
+			"Added few ability icons"
+		],
+		"0.8.6" : [
+			"Update to vcmi-1.7 format"
+		],
+		"0.8.5" : [
+			"Changed Wang Quan specialy"
+		],
+		"0.8.4" : [
+			"Fix Grail not to produce gold"
+		],
+		"0.8.3" : [
+			"Update to vcmi-1.6 format"
+		],
+		"0.8.2" : [
+			"Polish translation by FallainBlack"
+		],
+		"0.8.0" : [
+			"Lord Hawk's town balance"
+		],
+		"0.7.1" : [
+			"New creature portraits by Aphra"
+		],
+		"0.7.0" : [
+			"Line-up changes",
+			"Third upgrades added"
+		],
+		"0.6.3" : [
+			"Updated chinese translation"
+		],
+		"0.6.2" : [
+			"New town and citadel sprites on map"
+		],
+		"0.6.1" : [
+			"Updated russian translation"
+		],
+		"0.6.0" : [
+			"Russian translation by Anton Sergeew "
+		],
+		"0.5.9" : [
+			"New town theme by Fabrice-TIERCELIN and AI Udio"
+		],
+		"0.5.8" : [
+			"Added the creatures' stackExp, fixed the commander and other bugs"
+		],
+		"0.5.7" : [
+			"Improved chinese translation",
+			"More suitable sounds",
+			"Few graphical minor improvements"
+		],
+		"0.5.6" : [
+			"Fixed missing graphic for 7th lvl dwelling in townscreen"
+		],
+		"0.5.5" : [
+			"New portraits",
+			"Improved french translation"
+		],
+		"0.5.4" : [
+			"Update to vcmi-1.3"
+		],
+		"0.5.3" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"0.5.2" : [
+			"Update to vcmi-1.2"
+		],
+		"0.5.1" : [
+			"Special buildings support"
+		],
+		"0.5.0" : [
+			"Re-worked mod to match ERA original version"
+		]
+	},
+	"chinese" : {
 		"name" : "桃源",
 		"description" : "桃源是一个以中国风为设计要素的种族，取材自中国的神话传说和后世的玄幻小说，有着独有的国风韵味。",
 		"translations" : [
@@ -49,7 +97,7 @@
 			"translation/retreat/french.json"
 		]
 	},
-        "polish" : {
+	"polish" : {
 		"name" : "Ostoja",
 		"description" : "Ostoja - miasto w stylu dalekowschodnim",
 		"translations" : [
@@ -70,22 +118,19 @@
 			"translation/retreat/russian.json"
 		]
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/retreat/town/buildings",
 		"config/retreat/town/faction",
 		"config/retreat/town/siege",
 		"config/retreat/town/spells",
 		"config/retreat/town/structures",
 		"config/retreat/town/puzzle"
-
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/retreat/creatures/01aHuluLeaf",
 		"config/retreat/creatures/01bHuluFlower",
 		"config/retreat/creatures/01cHuluVine",
-        "config/retreat/creatures/02aMonkey",
+		"config/retreat/creatures/02aMonkey",
 		"config/retreat/creatures/02bMonkeyElder",
 		"config/retreat/creatures/02cMonkeyLeader",
 		"config/retreat/creatures/03aCultivator",
@@ -102,24 +147,20 @@
 		"config/retreat/creatures/06cJiuYing",
 		"config/retreat/creatures/07aFireDragon",
 		"config/retreat/creatures/07bJadeDragon",
-		"config/retreat/creatures/07cYingLong",		
+		"config/retreat/creatures/07cYingLong",
 		"config/retreat/creatures/pengHou",
-        "config/retreat/creatures/goldenLion"
-		
+		"config/retreat/creatures/goldenLion"
 	],
-    "artifacts":
-    [              
-        "config/retreat/artifacts/GoldenLion"        
-    ],
+	"artifacts" : [
+		"config/retreat/artifacts/GoldenLion"
+	],
 
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/retreat/classes/vanguard",
 		"config/retreat/classes/yingYanMaster"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/retreat/heroes/dingChan",
 		"config/retreat/heroes/faHai",
 		"config/retreat/heroes/fuGui",
@@ -137,8 +178,7 @@
 		"config/retreat/heroes/yan",
 		"config/retreat/heroes/yeye"
 	],
-	"objects" : 
-	[ 
+	"objects" : [
 		"config/retreat/dwellings"
 	]
 }

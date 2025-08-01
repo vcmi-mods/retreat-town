@@ -1,44 +1,40 @@
 {
-	"amMonkeyElder":
-	{
-		"name" :
-		{
+	"amMonkeyElder" : {
+		"name" : {
 			"plural" : "Monkey Elders",
 			"singular" : "Monkey Elder"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "retreat",
 		"aiValue" : 232,
 		"attack" : 6,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 3
+		"damage" : {
+			"max" : 4,
+			"min" : 3
 		},
 		"defense" : 6,
 		"fightValue" : 212,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR202.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "retreat/map/AVW202.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS202.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL202.bmp",
 			"timeBetweenFidgets" : 1,
-		    "missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 8,
-				"projectile": "Phalf.DEF",
-				"offset" :
-				{
+				"projectile" : "Phalf.DEF",
+				"offset" : {
 					"upperX" : 32,
 					"upperY" : -77,
 					"middleX" : 40,
@@ -46,46 +42,53 @@
 					"lowerX" : 18,
 					"lowerY" : -55
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
-        "shots" : 12,
+		"shots" : 12,
 		"growth" : 9,
 		"hitPoints" : 15,
-        "level" : 2,
-		"upgrades":
-		[
+		"level" : 2,
+		"upgrades" : [
 			"amMonkeyLeader"
 		],
-		"sound" :
-		{
-			"attack": "retreat/S201ATTK.wav",
-			"defend": "retreat/S201DFND.wav",
-			"killed": "retreat/S201KILL.wav",
-			"move":   "retreat/S201MOVE.wav",
-			"shoot":   "retreat/S201SHOT.wav",
-			"wince":  "retreat/S201WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S201ATTK.wav",
+			"defend" : "retreat/S201DFND.wav",
+			"killed" : "retreat/S201KILL.wav",
+			"move" : "retreat/S201MOVE.wav",
+			"shoot" : "retreat/S201SHOT.wav",
+			"wince" : "retreat/S201WNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"limitedShoot" :
-			{
+			"limitedShoot" : {
 				"type" : "LIMITED_SHOOTING_RANGE",
 				"val" : 10
 			},
-			"SELF_MORALE" :
-			{
+			"SELF_MORALE" : {
 				"type" : "MORALE",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX",
 				"description" : "{Positive morale}\nMonkey's morale cannot be decreased below +1",
 				"icon" : "retreat/icons/bonuses/e_minot.png"
-			}	
-		}	
+			}
+		}
 	}
 }

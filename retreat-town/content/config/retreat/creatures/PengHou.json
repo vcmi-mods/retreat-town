@@ -1,45 +1,38 @@
 {
-	"atPengHou":
-	{
-		"name" :
-		{
+	"atPengHou" : {
+		"name" : {
 			"plural" : "Kodamas",
 			"singular" : "Kodama"
 		},
 		"faction" : "retreat",
-		"level": 0,
+		"level" : 0,
 		"aiValue" : 1021,
 		"special" : true,
 		"attack" : 5,
 		"cost" : {
 			"gold" : 2000
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 15,
 			"min" : 15
 		},
 		"defense" : 5,
 		"fightValue" : 916,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/zm182npc.def",
-//			"map" : "retreat/map/zm182npc.def",
+			//			"map" : "retreat/map/zm182npc.def",
 			"iconSmall" : "retreat/iconsSmall/pengSmall.bmp",
 			"iconLarge" : "retreat/iconsBig/pengBig.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PMAGEX.def",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -47,48 +40,53 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : false,
 		"growth" : 1,
 		"hitPoints" : 40,
-//        "shots" : 24,
-		"sound" :
-		{
-			"attack": "retreat/GRPLATTK.wav",
-			"defend": "retreat/GRPLDFND.wav",
-			"killed": "retreat/GRPLKILL.wav",
-			"move": "retreat/GRPLMOVE.wav",
-            "shoot" : "retreat/PENGSHOT.wav",
-			"wince": "retreat/GRPLWNCE.wav"
+		//        "shots" : 24,
+		"sound" : {
+			"attack" : "retreat/GRPLATTK.wav",
+			"defend" : "retreat/GRPLDFND.wav",
+			"killed" : "retreat/GRPLKILL.wav",
+			"move" : "retreat/GRPLMOVE.wav",
+			"shoot" : "retreat/PENGSHOT.wav",
+			"wince" : "retreat/GRPLWNCE.wav"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.counterstrike",
 				"val" : 3

@@ -1,65 +1,59 @@
 {
-	"amHuluVine":
-	{
-		"name" :
-		{
+	"amHuluVine" : {
+		"name" : {
 			"plural" : "Hulu Vines",
 			"singular" : "Hulu Vine"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 20
 		},
 		"faction" : "retreat",
 		"hasDoubleWeek" : true,
 		"aiValue" : 55,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 65
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 1
+		"damage" : {
+			"max" : 4,
+			"min" : 1
 		},
 		"defense" : 5,
 		"fightValue" : 108,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR221.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "retreat/map/AVW221.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS221.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL221.bmp",
 			"timeBetweenFidgets" : 1
 		},
-	
+
 		"growth" : 14,
 		"hitPoints" : 6,
 		"horde" : 10,
 		"level" : 1,
-		"sound" :
-		{
-			"attack": "retreat/S199ATTK.wav",
-			"defend": "retreat/S199DFND.wav",
-			"killed": "retreat/S199KILL.wav",
-			"move":   "retreat/S199MOVE.wav",
-			"shoot":   "retreat/S199SHOT.wav",
-			"wince":  "retreat/S199WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S199ATTK.wav",
+			"defend" : "retreat/S199DFND.wav",
+			"killed" : "retreat/S199KILL.wav",
+			"move" : "retreat/S199MOVE.wav",
+			"shoot" : "retreat/S199SHOT.wav",
+			"wince" : "retreat/S199WNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{	
-			"binds" :
-			{
+		"abilities" : {
+			"binds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "bind",
 				"val" : 80
 			},
-			"slowImmunity" : 
-			{
+			"slowImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "slow",
 				"addInfo" : 1

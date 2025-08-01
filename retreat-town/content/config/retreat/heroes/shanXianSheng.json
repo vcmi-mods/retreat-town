@@ -1,46 +1,50 @@
 {
-	"16fuxi" : 
-	{
+	"16fuxi" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Fu Xi",
 			"biography" : "Fu Xi Sheng is a descendant of the Fu Xi Clan. He is an expert at Bagua and Fortune Telling.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Starts with Expert Earth Magic.",
 				"tooltip" : "Secondary Skill Bonus: Earth Magic",
 				"name" : "Earth Magic"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/shanXianSheng/spec-small",
 			"specialtyLarge" : "retreat/heroes/shanXianSheng/spec-large",
 			"large" : "retreat/heroes/shanXianSheng/HPL006EL",
 			"small" : "retreat/heroes/shanXianSheng/HPS006EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"visions"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "expert",
 				"skill" : "earthMagic"
 			}
 		],
-    
-		"specialty" : {
-		}
+
+		"specialty" : {}
 	}
 }

@@ -1,38 +1,43 @@
 {
-	"09huangPao" : 
-	{
+	"09huangPao" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Huang Pao",
 			"biography" : "With strong Taoist power, Huang Pao is able to travel between the worlds of the living and the dead. However, he was expelled from the Taoist Alliance for practicing prohibited dark magics.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Resurrection with effect increased by 3% for every n hero levels, where n is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/huangPao/spec-small.png",
 			"specialtyLarge" : "retreat/heroes/huangPao/spec-large.png",
 			"large" : "retreat/heroes/huangPao/HPL000EL",
 			"small" : "retreat/heroes/huangPao/HPS000EL"
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"resurrection"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -42,7 +47,7 @@
 				"skill" : "intelligence"
 			}
 		],
-    
+
 		"specialty" : {
 			"bonuses" : {
 				"resurrection" : {
@@ -55,5 +60,3 @@
 		}
 	}
 }
-
-

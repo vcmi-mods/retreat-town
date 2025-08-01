@@ -1,45 +1,41 @@
 {
-	"amDhutaSeeker":
-	{
-		"name" :
-		{
+	"amDhutaSeeker" : {
+		"name" : {
 			"plural" : "Dhuta Seekers",
 			"singular" : "Dhuta Seeker"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 10
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
 		},
 		"faction" : "retreat",
 		"aiValue" : 551,
 		"attack" : 10,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 350
 		},
-		"damage" :
-		{
-			 "max" : 6,
-			 "min" : 5
+		"damage" : {
+			"max" : 6,
+			"min" : 5
 		},
-		"shots": 1, //!
+		"shots" : 1, //!
 		"defense" : 12,
 		"fightValue" : 484,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "retreat/battle/CR206.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "retreat/map/AVW206.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS206.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL206.bmp",
 			"timeBetweenFidgets" : 1,
-		    "missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 6,
-				"projectile": "Phalf.DEF",
-				"offset" :
-				{
+				"projectile" : "Phalf.DEF",
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -95,
 					"middleX" : 61,
@@ -47,38 +43,49 @@
 					"lowerX" : 28,
 					"lowerY" : -20
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-        },
+		},
 		"doubleWide" : true,
 		"growth" : 4,
 		"hitPoints" : 50,
 		"level" : 4,
-		"upgrades":
-		[
+		"upgrades" : [
 			"amDhutaVenerable"
 		],
-		"sound" :
-		{       
-			"attack": "retreat/S205ATTK.wav",
-			"defend": "retreat/S205DFND.wav",
-			"killed": "retreat/S205KILL.wav",
-			"move":   "retreat/S205MOVE.wav",
-			"shoot":  "retreat/S205SHOT.wav",
-			"wince":  "retreat/S205WNCE.wav"
+		"sound" : {
+			"attack" : "retreat/S205ATTK.wav",
+			"defend" : "retreat/S205DFND.wav",
+			"killed" : "retreat/S205KILL.wav",
+			"move" : "retreat/S205MOVE.wav",
+			"shoot" : "retreat/S205SHOT.wav",
+			"wince" : "retreat/S205WNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{              
-            "forgetMe" :
-			{
+		"abilities" : {
+			"forgetMe" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "forgetfulness",
 				"val" : 35,
-				"addInfo" : [ 1, 0 ]
-			}
-,	"defencing" :
-			{
+				"addInfo" : [
+					1,
+					0
+				]
+			},
+			"defencing" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 4
 			}

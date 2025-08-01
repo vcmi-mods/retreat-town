@@ -1,34 +1,40 @@
 {
-	"04hanYou" : 
-	{
+	"04hanYou" : {
 		"class" : "vanguard",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Han You",
 			"biography" : "Han Yu is a cold-blooded professional contract killer. If you want to do business with him, make sure you have enough money.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Cultivators, Sword Cultivators or Golden Core Cultivators by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Cultivators",
 				"name" : "Cultivators"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/hanYou/spec-small",
 			"specialtyLarge" : "retreat/heroes/hanYou/spec-large",
 			"large" : "retreat/heroes/hanYou/HPL003PL",
 			"small" : "retreat/heroes/hanYou/HPS003PL"
 		},
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -40,6 +46,6 @@
 		],
 		"specialty" : {
 			"creature" : "amCultivator"
-		} 
+		}
 	}
 }

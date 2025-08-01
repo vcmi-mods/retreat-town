@@ -2,63 +2,156 @@
 	"retreat" : {
 		"alignment" : "good",
 		"boat" : "boatCastle",
-		"creatureBackground" : { "120px" : "retreat/creature-bg-120px", "130px" : "retreat/creature-bg-130px" },
+		"creatureBackground" : {
+			"120px" : "retreat/creature-bg-120px",
+			"130px" : "retreat/creature-bg-130px"
+		},
 		"name" : "Retreat",
 		"nativeTerrain" : "grass",
-		"town" :
-		{
-			"musicTheme" : [ "music/retreat/theme" ],
+		"town" : {
+			"musicTheme" : [
+				"music/retreat/theme"
+			],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
-			"townBackground": "retreat/town-screen/background",
-			"guildWindow": "retreat/town-screen/mage-guild",
-			"hallBackground": "TPTHBKFR.BMP",
-			"hallSlots":
-			[
-				[ 
-					[ "villageHall", "townHall", "cityHall", "capitol" ], 
-					[ "fort", "citadel", "castle" ], 
-					[ "tavern" ],
-					[ "blacksmith" ] 
+			"townBackground" : "retreat/town-screen/background",
+			"guildWindow" : "retreat/town-screen/mage-guild",
+			"hallBackground" : "TPTHBKFR.BMP",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
 				],
-				[ 
-					[ "marketplace", "resourceSilo" ], 
-					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-					[ "shipyard" ] 
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"shipyard"
+					]
 				],
-				[ 
-					[ "special2" ], [ "special1" ], 
-					[ "horde1", "horde1Upgr", "horde1Upgr2", ] 
+				[
+					[
+						"special2"
+					],
+					[
+						"special1"
+					],
+					[
+						"horde1",
+						"horde1Upgr",
+						"horde1Upgr2"
+					]
 				],
-				[ 
-					[ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], 
-					[ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], 
-					[ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], 
-					[ "dwellingLvl4", "dwellingUpLvl4", "dwellingUp2Lvl4" ] 
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1",
+						"dwellingUp2Lvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2",
+						"dwellingUp2Lvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3",
+						"dwellingUp2Lvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4",
+						"dwellingUp2Lvl4"
+					]
 				],
-				[ 
-					[ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], 
-					[ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ],
-					[ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ]  
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5",
+						"dwellingUp2Lvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6",
+						"dwellingUp2Lvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7",
+						"dwellingUp2Lvl7"
+					]
 				]
 			],
-			"creatures" :
-			[
-				[ "amHuluLeaf", "amHuluFlower", "amHuluVine" ],
-				[ "amMonkey", "amMonkeyElder", "amMonkeyLeader" ],
-				[ "amCultivator", "amSwordCultivator", "amGoldenCoreCultivator" ],
-                [ "amDhutaWalker", "amDhutaSeeker", "amDhutaVenerable" ],
-				[ "amDeerGirl", "amDeerFairy", "amJueRu" ],
-				[ "amSnakeGrasper", "amSnakeBearer", "amJiuYing" ],
-				[ "amFireDragon", "amJadeDragon", "amYingLong" ]
+			"creatures" : [
+				[
+					"amHuluLeaf",
+					"amHuluFlower",
+					"amHuluVine"
+				],
+				[
+					"amMonkey",
+					"amMonkeyElder",
+					"amMonkeyLeader"
+				],
+				[
+					"amCultivator",
+					"amSwordCultivator",
+					"amGoldenCoreCultivator"
+				],
+				[
+					"amDhutaWalker",
+					"amDhutaSeeker",
+					"amDhutaVenerable"
+				],
+				[
+					"amDeerGirl",
+					"amDeerFairy",
+					"amJueRu"
+				],
+				[
+					"amSnakeGrasper",
+					"amSnakeBearer",
+					"amJiuYing"
+				],
+				[
+					"amFireDragon",
+					"amJadeDragon",
+					"amYingLong"
+				]
 			],
-			"horde" : [ 0 , 1],
+			"horde" : [
+				0,
+				1
+			],
 			"moatAbility" : "castleMoat",
 			"mageGuild" : 5,
 			"buildingsIcons" : "retreat/town-hall.def",
-			"icons" :
-			{
+			"icons" : {
 				"village" : {
 					"normal" : {
 						"small" : "retreat/icons/hall-small.bmp",
@@ -83,20 +176,62 @@
 
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "retreat/adventure-map/town-capitol.def" },
-					"castle" : { "animation" : "retreat/adventure-map/town-castle.def" },
-					"citadel" : { "animation" : "retreat/adventure-map/town-citadel.def" },
-					"fort" : { "animation" : "retreat/adventure-map/town-fort.def" },
-					"village" : { "animation" : "retreat/adventure-map/town-village.def" }
+					"capitol" : {
+						"animation" : "retreat/adventure-map/town-capitol.def"
+					},
+					"castle" : {
+						"animation" : "retreat/adventure-map/town-castle.def"
+					},
+					"citadel" : {
+						"animation" : "retreat/adventure-map/town-citadel.def"
+					},
+					"fort" : {
+						"animation" : "retreat/adventure-map/town-fort.def"
+					},
+					"village" : {
+						"animation" : "retreat/adventure-map/town-village.def"
+					}
 				}
 			},
-			"names" :
-			[
+			"names" : [
 				"Yu Zhou",
 				"Feng Du",
 				"Tai Shan",
@@ -114,28 +249,27 @@
 				"Tu Shan",
 				"Hulu Valley"
 			],
-			"tavern" :
-			{
-				"knight"       : 4,
-				"cleric"       : 4,
-				"ranger"       : 4,
-				"druid"        : 4,
-				"alchemist"    : 4,
-				"wizard"       : 4,
-				"demoniac"     : 2,
-				"heretic"      : 2,
-				"deathknight"  : 2,
-				"necromancer"  : 2,
-				"warlock"      : 2,
-				"overlord"     : 2,
-				"barbarian"    : 3,
-				"battlemage"   : 3,
-				"beastmaster"  : 3,
-				"witch"        : 3,
+			"tavern" : {
+				"knight" : 4,
+				"cleric" : 4,
+				"ranger" : 4,
+				"druid" : 4,
+				"alchemist" : 4,
+				"wizard" : 4,
+				"demoniac" : 2,
+				"heretic" : 2,
+				"deathknight" : 2,
+				"necromancer" : 2,
+				"warlock" : 2,
+				"overlord" : 2,
+				"barbarian" : 3,
+				"battlemage" : 3,
+				"beastmaster" : 3,
+				"witch" : 3,
 				"planeswalker" : 3,
 				"elementalist" : 3,
-				"vanguard"     : 5,
-				"yingYanMaster": 5
+				"vanguard" : 5,
+				"yingYanMaster" : 5
 			}
 		}
 	}

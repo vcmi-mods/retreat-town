@@ -1,34 +1,40 @@
 {
-	"03xiaoQing" : 
-	{
+	"03xiaoQing" : {
 		"class" : "vanguard",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Xiao Qing",
 			"biography" : "Xiao Qing is a flying snake that has gained human form through hundreds of years of Taoist practice.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Logistics",
 				"name" : "Logistics"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/xiaoQing/spec-small.png",
 			"specialtyLarge" : "retreat/heroes/xiaoQing/spec-large.png",
 			"large" : "retreat/heroes/xiaoQing/HPL002PL",
 			"small" : "retreat/heroes/xiaoQing/HPS002PL"
 		},
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -39,9 +45,7 @@
 			}
 		],
 		"specialty" : {
-				"secondary" : "logistics"
+			"secondary" : "logistics"
 		}
 	}
 }
-
-

@@ -1,39 +1,44 @@
 {
-	"10dingChan" : 
-	{
+	"10dingChan" : {
 		"class" : "yingYanMaster",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ding Chan",
 			"biography" : "Before becoming a monk, Ding Chan was Meng Die's husband. One night, he received a heavenly revelation and soon realised his fate.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Frost Ring with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Frost Ring",
 				"name" : "Frost Ring"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "retreat/heroes/dingChan/spec-small",
 			"specialtyLarge" : "retreat/heroes/dingChan/spec-large",
 			"large" : "retreat/heroes/dingChan/HPL001EL",
 			"small" : "retreat/heroes/dingChan/HPS001EL"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"frostRing"
 		],
-		"army" :
-		[
-			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
+		"army" : [
+			{
+				"creature" : "amHuluLeaf",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "amMonkey",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "amCultivator",
+				"min" : 3,
+				"max" : 4
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -43,7 +48,7 @@
 				"skill" : "waterMagic"
 			}
 		],
-    
+
 		"specialty" : {
 			"bonuses" : {
 				"frostRing" : {
@@ -56,5 +61,3 @@
 		}
 	}
 }
-
-
