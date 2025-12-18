@@ -1,0 +1,9 @@
+{
+	"retreat-town:amSwordCultivator" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly_levitate.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/01bHuluFlower",
+		"config/01cHuluVine",
+		"config/03aCultivator",
+		"config/03bSwordCultivator",
+		"config/03cGoldenCoreCultivator",
+		"config/04aDhutaWalker",
+		"config/04bDhutaSeeker",
+		"config/04cDhutaVenerable",
+		"config/05aDeerGirl",
+		"config/05bDeerFairy",
+		"config/05cJueRu",
+		"config/06bSnakeBearer",
+		"config/06cJiuYing",
+		"config/07aFireDragon",
+		"config/07bJadeDragon",
+		"config/07cYingLong",
+		"config/pengHou",
+		"config/goldenLion"
+	]
+}

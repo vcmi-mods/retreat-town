@@ -1,0 +1,12 @@
+{
+	"retreat-town:amGoldenCoreCultivator" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly_levitate.png"
+			},
+			"disruptingRay" : {
+				"icon" : "bonuses/disruptingattack.png"
+			}
+		}
+	}
+}

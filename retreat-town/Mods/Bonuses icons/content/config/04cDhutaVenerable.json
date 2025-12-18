@@ -1,0 +1,9 @@
+{
+	"retreat-town:amDhutaVenerable" : {
+		"abilities" : {
+			"forgetMe" : {
+				"icon" : "bonuses/forgetfulnessattack.png"
+			}
+		}
+	}
+}

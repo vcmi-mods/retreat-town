@@ -1,0 +1,15 @@
+{
+	"retreat-town:amYingLong" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly_levitate.png"
+			},
+			"spellFireWall" : {
+				"icon" : "bonuses/firewall_attack.png"
+			},
+			"twohexattackbreath" : {
+				"icon" : "bonuses/e_breath_yinglong.png"
+			}
+		}
+	}
+}

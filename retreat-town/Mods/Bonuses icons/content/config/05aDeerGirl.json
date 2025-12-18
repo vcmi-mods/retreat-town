@@ -1,0 +1,9 @@
+{
+	"retreat-town:amDeerGirl" : {
+		"abilities" : {
+			"castsBerserk" : {
+				"icon" : "bonuses/berserk2.png"
+			}
+		}
+	}
+}

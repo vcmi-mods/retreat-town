@@ -1,0 +1,9 @@
+{
+	"retreat-town:amHuluFlower" : {
+		"abilities" : {
+			"binds" : {
+				"icon" : "bonuses/sticky.png"
+			}
+		}
+	}
+}

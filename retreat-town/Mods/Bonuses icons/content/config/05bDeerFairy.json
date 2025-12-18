@@ -1,0 +1,9 @@
+{
+	"retreat-town:amDeerFairy" : {
+		"abilities" : {
+			"castsBerserk" : {
+				"icon" : "bonuses/berserk2.png"
+			}
+		}
+	}
+}

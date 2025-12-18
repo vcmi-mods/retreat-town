@@ -1,0 +1,9 @@
+{
+	"retreat-town:amDhutaWalker" : {
+		"abilities" : {
+			"suck" : {
+				"icon" : "bonuses/forgetfulnessattack.png"
+			}
+		}
+	}
+}

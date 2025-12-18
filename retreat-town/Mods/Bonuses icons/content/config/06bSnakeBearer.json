@@ -1,0 +1,9 @@
+{
+	"retreat-town:amSnakeBearer" : {
+		"abilities" : {
+			"poison" : {
+				"icon" : "bonuses/poison.png"
+			}
+		}
+	}
+}

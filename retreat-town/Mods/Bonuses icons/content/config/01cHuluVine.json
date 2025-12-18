@@ -1,0 +1,9 @@
+{
+	"retreat-town:amHuluVine" : {
+		"abilities" : {
+			"binds" : {
+				"icon" : "bonuses/sticky.png"
+			}
+		}
+	}
+}

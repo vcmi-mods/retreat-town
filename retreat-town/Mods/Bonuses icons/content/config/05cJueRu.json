@@ -1,0 +1,9 @@
+{
+	"retreat-town:amJueRu" : {
+		"abilities" : {
+			"castsBerserk" : {
+				"icon" : "bonuses/berserk2.png"
+			}
+		}
+	}
+}

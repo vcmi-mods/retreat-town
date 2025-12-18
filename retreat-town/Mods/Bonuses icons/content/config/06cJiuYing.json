@@ -1,0 +1,9 @@
+{
+	"retreat-town:amJiuYing" : {
+		"abilities" : {
+			"poison" : {
+				"icon" : "bonuses/poison.png"
+			}
+		}
+	}
+}

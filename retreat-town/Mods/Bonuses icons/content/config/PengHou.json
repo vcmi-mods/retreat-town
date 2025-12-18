@@ -1,0 +1,9 @@
+{
+	"retreat-town:atPengHou" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/counterstrike3.png"
+			}
+		}
+	}
+}

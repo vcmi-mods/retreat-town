@@ -3,12 +3,15 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.8.8",
+	"version" : "0.8.9",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"0.8.9" : [
+			"Added additional creatures abilities icons by Kurek"
+		],
 		"0.8.8" : [
 			"Updated french translation",
 			"Fix the perspective of the statue of the goddess"

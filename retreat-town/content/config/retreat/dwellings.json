@@ -121,7 +121,7 @@
 					"default" : {
 						"animation" : "retreat/map/dwellings/dwelling-5.def",
 						"mask" : [
-							"VBV",
+							"VVV",
 							"VBV",
 							"VAV"
 						]
