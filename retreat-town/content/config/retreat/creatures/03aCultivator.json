@@ -13,7 +13,7 @@
 		"attack" : 7,
 		"hasDoubleWeek" : true,
 		"cost" : {
-			"gold" : 15
+			"gold" : 200
 		},
 		"damage" : {
 			"max" : 6,
