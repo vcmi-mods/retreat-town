@@ -28,7 +28,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"map" : "retreat/map/AVW224.def",
+			"map" : "retreat/map/AVW225.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS225.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL225.bmp",
 			"timeBetweenFidgets" : 1,
